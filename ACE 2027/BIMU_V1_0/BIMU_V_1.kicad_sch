@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "abeb93ed-b9ef-4503-99a7-3fce380ff294")
+	(paper "A5")
+	(lib_symbols)
+	(sheet
+		(at 17.78 17.78)
+		(size 52.07 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6937e765-eead-4ea7-ba07-6590a34338ab")
+		(property "Sheetname" "Alimentation"
+			(at 17.78 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 17.78 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIMU"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 99.06)
+		(size 52.07 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f76bfd3-393f-4bde-9261-417b092e4508")
+		(property "Sheetname" "Controle"
+			(at 17.78 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controle.kicad_sch"
+			(at 17.78 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIMU"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 58.42)
+		(size 52.07 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb2c5cc6-e994-4380-96ca-0af61efa0b8a")
+		(property "Sheetname" "Capteur"
+			(at 17.78 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Capteur.kicad_sch"
+			(at 17.78 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIMU"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
