@@ -7,7 +7,7 @@ Un readme par dossier qui explique le fonctionnement de L'exo de l'année avec u
 Un dossier par PCB.
 Une branche par version de PCB qui est Pull sur la Main après une révision du schéma.
 Une nouvelle branche après le pull du schéma pour les traces qui est Pull sur la Main après une révision et une commande du PCB.
-Si c'est des modifications mineurs à un PCB existant, il est possible de faire qu'une seule branche pour les deux étapes. 
+Si ce sont des modifications mineures à un PCB existant, il est possible de ne faire qu'une seule branche pour les deux étapes. 
 
 Convention de version:
 V1.0  Premier prototype
@@ -15,11 +15,12 @@ V1.1  Corrections mineures
 V2.0  Révision majeure
 Chaque révision doit être documentée dans le dépôt Git avec un historique clair des modifications.
 
-## Règle général
+## Règles générales
 Les schémas doivent respecter les conventions suivantes :
 Alimentation(5V, 48V) vers le haut
 Masse (GND) vers le bas
 Privilégier les labels plutôt que de longs fils traversant plusieurs zones du schéma.
+Les mounting holes doivent être avec l'alimentation et priorisé les M3
 
 
 Séparation par blocs fonctionnels
@@ -47,11 +48,9 @@ Ajouter des notes lorsque la conception n'est pas évidente.
 
 Exemples :
 
-Capteur alimenté avant activation
-du driver moteur pour éviter un reset.
+Capteur alimenté avant activation du driver moteur pour éviter un reset.
 
-Résistance choisie pour limiter
-le courant d'appel à moins de 2 A.
+Résistance choisie pour limiter le courant d'appel à moins de 2 A.
 
 Utilisation des pull-up resistors du ESP-32
 
@@ -83,7 +82,7 @@ Convention de nommage des composants
 | Inductance | L | L101 |
 | Ferrite | FB | FB101 |
 | Diode | D | D101 |
-| LED | LED | LED101 |
+| LED | D | D101 |
 | Transistor BJT | Q | Q101 |
 | MOSFET | Q | Q102 |
 | Circuit intégré | U | U101 |
@@ -107,8 +106,8 @@ Plage de numéros réservés à chaque sous-système.
 | Bloc | Plage |
 | :--- | :--- |
 | Alimentations/protections | 100–199 |
-| Microcontrôleurs/Communication | 200–399 |
-| Capteurs | 400–499 |
+| Microcontrôleurs/Communication | 200–299 |
+| Capteurs | 300–399 |
 
 Gestion des composants pour le BOM
 
