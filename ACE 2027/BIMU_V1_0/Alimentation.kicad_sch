@@ -1839,7 +1839,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "257c3af4-430d-499e-9265-2483a35a74f7")
 		(property "Reference" "H102"
@@ -1956,6 +1956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "399-C1812C104MDRACTUCT-ND"
+			(at 119.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30f635e8-58c8-4b4a-b006-7a823e41032b")
 		)
@@ -2025,6 +2034,15 @@
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
 			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "1655-BAV99CT-ND"
+			(at 187.96 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,6 +2192,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "AP7361C-33E-13DICT-ND"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -2474,6 +2501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "1276-2970-1-ND"
+			(at 71.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "822032b3-a141-478f-8f33-9fe2879b3432")
 		)
@@ -2573,7 +2609,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6f95b494-a52b-431d-bd1b-2ee338aac323")
 		(property "Reference" "TP101"
 			(at 34.925 41.275 90)
@@ -2691,6 +2727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "1655-BAV99CT-ND"
+			(at 161.29 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d846f21-f885-4119-9190-bfcf106824c0")
 		)
@@ -2762,6 +2807,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "541-4168-1-ND"
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -2942,7 +2996,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bf1719cf-5b05-4536-a83c-5871f2a90ddc")
 		(property "Reference" "H101"
@@ -3132,6 +3186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "399-C1812C104MDRACTUCT-ND"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35f0865c-7ac8-4529-8493-adb87a5da28b")
 		)
@@ -3232,7 +3295,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc2d3bda-b159-4f63-8389-d71d03f2cf6f")
 		(property "Reference" "TP103"
 			(at 88.265 25.4 0)
@@ -3388,7 +3451,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Green_power"
+		(property "Value" "POWER LED"
 			(at 87.63 47.3074 90)
 			(effects
 				(font
@@ -3424,6 +3487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "1516-QBLP631-IG5CT-ND"
+			(at 83.82 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62a49ed6-e1cf-4b01-82e5-33e16ca7b51e")
 		)
@@ -3452,7 +3524,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fbc7e579-8ede-49e1-b1e7-b7cba5d13cc9")
 		(property "Reference" "TP102"
 			(at 38.735 25.4 0)
@@ -3563,6 +3635,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "1276-2970-1-ND"
 			(at 40.64 36.83 0)
 			(effects
 				(font

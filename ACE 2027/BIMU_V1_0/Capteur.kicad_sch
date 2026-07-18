@@ -5,148 +5,6 @@
 	(uuid "1553abeb-ece3-470f-ad01-6e5989cfae33")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -268,179 +126,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1026,45 +711,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 77.47 48.26)
-		(end 166.37 120.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d5cbc019-1719-48dd-aa46-9f5c1afcacae)
-	)
-	(text "THERMALS SENSORS"
-		(exclude_from_sim no)
-		(at 116.84 115.062 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "841f7b75-c9be-45f0-922e-a29923ec5713")
-	)
-	(junction
-		(at 135.89 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3915dd90-97f0-4e84-b3af-0f89e1ad9858")
-	)
 	(junction
 		(at 128.27 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c633f2c-00e2-4da7-b3b7-f3bd58d4e16c")
-	)
-	(junction
-		(at 82.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c03bba98-6d17-4a04-952f-3fcb058775fd")
 	)
 	(junction
 		(at 125.73 137.16)
@@ -1081,36 +732,6 @@
 	(no_connect
 		(at 110.49 157.48)
 		(uuid "ecd7d342-c441-484d-a45f-5f3ab0afc76a")
-	)
-	(wire
-		(pts
-			(xy 135.89 67.31) (xy 135.89 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003b028e-f05c-4c43-b48c-3ae4ddea64ea")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 82.55 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a362dd-c314-4479-8b31-f77e9725653d")
-	)
-	(wire
-		(pts
-			(xy 135.89 72.39) (xy 135.89 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a07046-327a-4606-923c-808e9f961a69")
 	)
 	(wire
 		(pts
@@ -1164,16 +785,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 138.43 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b3bd7c7-c6b7-45f2-82b0-3b9b195441ca")
-	)
-	(wire
-		(pts
 			(xy 125.73 137.16) (xy 125.73 144.78)
 		)
 		(stroke
@@ -1191,16 +802,6 @@
 			(type default)
 		)
 		(uuid "681db7b0-2018-407d-a5cd-bce7fbf2e53a")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "683cae0c-64d9-4683-9e96-bfef462784a1")
 	)
 	(wire
 		(pts
@@ -1244,16 +845,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 82.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c638b4-b2b4-4992-be7a-d30af07002f7")
-	)
-	(wire
-		(pts
 			(xy 128.27 137.16) (xy 128.27 144.78)
 		)
 		(stroke
@@ -1261,16 +852,6 @@
 			(type default)
 		)
 		(uuid "caab6d83-991f-47b7-ab88-a5eb9930d997")
-	)
-	(wire
-		(pts
-			(xy 135.89 78.74) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5d0334d-02cd-4bb1-ac00-7a026eed0245")
 	)
 	(wire
 		(pts
@@ -1348,28 +929,6 @@
 			)
 		)
 	)
-	(global_label "Temp_Sensor1"
-		(shape input)
-		(at 85.09 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c879a37-2044-487c-acf1-d0e532480088")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.5612 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "INT2"
 		(shape input)
 		(at 140.97 154.94 0)
@@ -1405,28 +964,6 @@
 		(uuid "79b09570-f01b-48de-8774-30fecef6da70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.0676 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Temp_SensorM"
-		(shape input)
-		(at 138.43 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7acf4b32-33ad-49c2-9fa0-e84b17054d50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.1431 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,6 +1051,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "497-LSM6DSV16BXTRCT-ND"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LSM6DSV16BXTR/16841542?gclsrc=aw.ds&gad_source=1&gad_campaignid=136320905&gbraid=0AAAAADrbLliJ0xeX3qZwvpkPionXkPT3T&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jlFHbLXpfjtRcMhcreBAaBLre-3gOjqHCYy_2w3KjlBVbI-xRrxiK4aAsUXEALw_wcB"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "77f1c858-f3a9-49e7-90df-f0b2c5885611")
 		)
@@ -1566,151 +1121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 82.55 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18c83424-1dd4-407f-a4a8-61ccbab49f25")
-		(property "Reference" "R301"
-			(at 85.09 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 85.09 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 83.566 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ABNTC-0805-103J-3950F-T"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "535-ABNTC-0805-103J-3950F-TCT-ND"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9da5a98f-e195-419c-9a52-0415be4036b5")
-		)
-		(pin "2"
-			(uuid "2a289702-c6ec-40db-a725-ae811a87f780")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ecd007b-1dd5-48c4-af06-ffaa44ad872d")
-		(property "Reference" "#PWR0302"
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e0c4cbc-37e4-434e-b816-32057fe510be")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 137.16 270)
 		(unit 1)
@@ -1735,7 +1145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 109.22 138.1252 0)
 			(effects
 				(font
@@ -1762,7 +1172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "1276-6840-1-ND"
+		(property "Digi-Key_PN" "399-C0805C104K5RACTUCT-ND"
 			(at 113.03 137.16 90)
 			(effects
 				(font
@@ -1811,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.62 138.1252 0)
 			(effects
 				(font
@@ -1838,7 +1248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "1276-6840-1-ND"
+		(property "Digi-Key_PN" "399-C0805C104K5RACTUCT-ND"
 			(at 138.43 137.16 90)
 			(effects
 				(font
@@ -1857,138 +1267,6 @@
 			(project "BIMU_V_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
 					(reference "C302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "354e6236-3476-4fb3-82ce-f3ad6f3c9187")
-		(property "Reference" "#PWR0308"
-			(at 135.89 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e92aa89-1156-45f9-bc81-08d966ce1109")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 135.89 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dc1cd1b-c418-472d-b45c-f6d8537801d2")
-		(property "Reference" "#PWR0307"
-			(at 135.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f0f7e26-e37b-4e28-84a5-2e95545bbbf8")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -2055,212 +1333,6 @@
 			(project ""
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
 					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 82.55 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862b48c4-c480-42c2-8cf6-434107e49e6d")
-		(property "Reference" "R302"
-			(at 85.09 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.2KΩ"
-			(at 85.09 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.566 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ceefb9d0-d0bf-449d-baae-006aa277c40c")
-		)
-		(pin "2"
-			(uuid "bd6d24ce-c8fd-4709-9174-ca6bc01bcea2")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 82.55 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9244edae-405d-4f07-80c0-9ab33f29c167")
-		(property "Reference" "#PWR0301"
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 82.55 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "488c8c51-9df1-4e2a-a202-f3213b43c780")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140.97 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bdc12e8-c12a-48a5-b2d2-cc354be68956")
-		(property "Reference" "J301"
-			(at 143.51 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermal_ResistanceM"
-			(at 143.51 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7434a3d-bed7-40e4-ba04-11f3f7d208ed")
-		)
-		(pin "2"
-			(uuid "6a992b28-b8d7-42f9-8691-1ae544f7688a")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -2525,76 +1597,6 @@
 			(project "BIMU_V_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
 					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 135.89 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffef78c8-7cd5-439b-9e44-dc8f30dd00f6")
-		(property "Reference" "R303"
-			(at 138.43 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.2KΩ"
-			(at 138.43 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 136.906 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "664f59f4-b13b-4fb7-b7f7-36ace7347fad")
-		)
-		(pin "2"
-			(uuid "67b3dab3-7a0e-4673-9d24-62b86ad62367")
-		)
-		(instances
-			(project "BIMU"
-				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/fb2c5cc6-e994-4380-96ca-0af61efa0b8a"
-					(reference "R303")
 					(unit 1)
 				)
 			)
