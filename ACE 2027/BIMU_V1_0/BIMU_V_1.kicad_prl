@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 2,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -32,7 +32,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -59,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "BIMU.kicad_prl",
+    "filename": "BIMU_V_1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

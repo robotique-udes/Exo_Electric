@@ -7770,6 +7770,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key_PN" "609-1046-ND"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4a68a7d-aa5b-48fc-b049-25974a950b5d")
 		)
@@ -8152,6 +8161,15 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "609-1046-ND"
 			(at 173.99 116.84 0)
 			(effects
 				(font
@@ -9645,7 +9663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 204.47 92.71 0)
 			(effects
 				(font
@@ -11774,7 +11792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1100P-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 204.47 115.57 0)
 			(effects
 				(font
