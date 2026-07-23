@@ -1,0 +1,1 @@
+Ce PCB a pour but d'être un IMU qui fonctionne en CAN
