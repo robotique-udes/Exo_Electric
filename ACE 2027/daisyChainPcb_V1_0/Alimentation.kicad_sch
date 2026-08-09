@@ -1565,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "AP7361C-33E-13"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
