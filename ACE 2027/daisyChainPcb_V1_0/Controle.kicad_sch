@@ -1307,121 +1307,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -1552,7 +1437,7 @@
 	)
 	(rectangle
 		(start 51.435 86.995)
-		(end 87.63 106.045)
+		(end 87.63 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -1576,7 +1461,7 @@
 	)
 	(rectangle
 		(start 180.34 12.0246)
-		(end 284.9986 81.915)
+		(end 284.9986 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -1636,7 +1521,7 @@
 	)
 	(rectangle
 		(start 15.24 86.995)
-		(end 51.435 106.045)
+		(end 51.435 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -1648,7 +1533,7 @@
 	)
 	(rectangle
 		(start 87.63 92.71)
-		(end 135.89 106.045)
+		(end 135.89 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -1714,7 +1599,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 17.526 104.902 0)
+		(at 17.272 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,7 +1619,7 @@
 	)
 	(text "5V and its GND"
 		(exclude_from_sim no)
-		(at 59.69 104.902 0)
+		(at 59.182 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1784,7 +1669,7 @@
 	)
 	(text "5V to 3.3V"
 		(exclude_from_sim no)
-		(at 93.218 104.902 0)
+		(at 93.472 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1825,12 +1710,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ab0dd39-2e01-4465-9ef8-c961df67fa96")
-	)
-	(junction
-		(at 233.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1668564-63a5-418f-a828-c9230d80b5fb")
 	)
 	(wire
 		(pts
@@ -2054,13 +1933,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 255.27 73.66)
+			(xy 76.2 96.52) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be102bf7-d562-45d4-9de4-8ef05b10e41e")
+		(uuid "ad818a2b-f9e8-4228-b2d1-f60aca496393")
 	)
 	(wire
 		(pts
@@ -2074,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 233.68 73.66)
+			(xy 208.28 73.66) (xy 255.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2302,6 +2181,30 @@
 		)
 		(uuid "d85f9d7f-2838-4ead-800b-d7cec4c50c67")
 	)
+	(global_label "signal_GND"
+		(shape input)
+		(at 233.68 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "357d2202-9c9f-4339-9d18-a127d27a1abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 87.2284 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCC_3V3"
 		(shape input)
 		(at 109.22 100.33 180)
@@ -2398,6 +2301,30 @@
 			)
 		)
 	)
+	(global_label "signal_GND"
+		(shape input)
+		(at 138.43 40.64 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfaed250-818d-4ac2-86e8-e5e5b6ab09e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 54.2084 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "power_GND"
 		(shape input)
 		(at 58.42 33.02 270)
@@ -2411,6 +2338,30 @@
 		(uuid "e7fb71fa-6fba-44e2-a3e8-8b80e9e62924")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.42 46.3466 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "signal_GND"
+		(shape input)
+		(at 76.2 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3642c5c-318a-4b6a-b656-f281649800c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.6316 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,84 +2894,6 @@
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 233.68 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54791dad-cb22-4d0e-b2fc-31aa36dee02a")
-		(property "Reference" "#FLG03"
-			(at 233.68 71.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 233.68 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f9c8f23-c94c-45c3-8d83-0b94ad8f06bc")
-		)
-		(instances
-			(project "daisyChainPcb_V1_0"
-				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3599,84 +3472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 96.52 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92cc213b-1bee-4093-82cd-de73fd151e1f")
-		(property "Reference" "#PWR04"
-			(at 76.2 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71726449-6327-4e0b-b8f3-5813f3e0786d")
-		)
-		(instances
-			(project "daisyChainPcb_V1_0"
-				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 21.59 77.47 0)
 		(unit 1)
@@ -4016,84 +3811,6 @@
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 73.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9a830fd-1299-46c2-8af3-59631edf2527")
-		(property "Reference" "#PWR02"
-			(at 233.68 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f30c113-2504-4d2c-b635-7a74c3f13019")
-		)
-		(instances
-			(project "daisyChainPcb_V1_0"
-				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4510,84 +4227,6 @@
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f69b8690-ee4d-4486-bfed-593a3c730e03")
-		(property "Reference" "#PWR015"
-			(at 138.43 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "888a12e0-8dfe-4418-8011-67bf56e3766e")
-		)
-		(instances
-			(project "daisyChainPcb_V1_0"
-				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
