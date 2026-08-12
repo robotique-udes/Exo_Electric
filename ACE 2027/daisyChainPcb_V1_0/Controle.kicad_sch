@@ -1682,7 +1682,7 @@
 		)
 		(uuid "ab45a8ca-b809-4fa9-a4b9-96d47f98e029")
 	)
-	(text "48V and it's GND"
+	(text "48V and its GND"
 		(exclude_from_sim no)
 		(at 96.52 91.186 0)
 		(effects
@@ -1732,7 +1732,7 @@
 		)
 		(uuid "7b9e0ba6-731f-4751-8b29-f72fe79b1826")
 	)
-	(text "5V and it's GND"
+	(text "5V and its GND"
 		(exclude_from_sim no)
 		(at 59.69 104.902 0)
 		(effects
@@ -2490,7 +2490,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.waldom.com/upload/parts/datasheets/mf-fci/fci-54602-908lf.pdf"
 			(at 198.12 51.435 90)
 			(hide yes)
 			(show_name no)
@@ -2502,6 +2502,17 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key_PN" "609-1046-ND"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3944,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.waldom.com/upload/parts/datasheets/mf-fci/fci-54602-908lf.pdf"
 			(at 273.05 51.435 90)
 			(hide yes)
 			(show_name no)
@@ -3956,6 +3967,17 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key_PN" "609-1046-ND"
 			(at 273.05 50.8 0)
 			(hide yes)
 			(show_name no)
