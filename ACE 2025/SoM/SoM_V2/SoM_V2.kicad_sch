@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ecd44d9a-8113-48e2-a5bb-0de07ce8b9ce")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 115.57 90.17)
+		(size 98.425 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42eddecc-5d06-4740-ba8f-a05813435351")
+		(property "Sheetname" "ESP32"
+			(at 115.57 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 115.57 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoM_V2"
+				(path "/ecd44d9a-8113-48e2-a5bb-0de07ce8b9ce"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 15.24)
+		(size 99.06 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e20c774-e159-4c82-b251-7add9faa2a44")
+		(property "Sheetname" "Communication"
+			(at 115.57 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 115.57 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoM_V2"
+				(path "/ecd44d9a-8113-48e2-a5bb-0de07ce8b9ce"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 15.24)
+		(size 99.06 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4014528-9d1a-4585-ac7c-830bae440eaa")
+		(property "Sheetname" "Alimentation"
+			(at 13.97 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 13.97 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoM_V2"
+				(path "/ecd44d9a-8113-48e2-a5bb-0de07ce8b9ce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 90.17)
+		(size 99.06 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc7293f1-5a36-4fea-b330-faa9d597a61e")
+		(property "Sheetname" "Sortie"
+			(at 13.97 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sortie.kicad_sch"
+			(at 13.97 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SoM_V2"
+				(path "/ecd44d9a-8113-48e2-a5bb-0de07ce8b9ce"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

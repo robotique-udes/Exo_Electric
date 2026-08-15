@@ -1,0 +1,102 @@
+(footprint "Restart button relay"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba420907-9774-4c6c-8444-37d8aaf8f8d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Restart button relay"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e0103907-c901-4af7-ba58-972cfbc89119")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a699dc3-64cb-456c-a31e-46b36a286155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a7d0d4c-3469-4948-8202-07e133997d73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4679ff4e-6d10-477f-af14-d90323f44c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.08)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "04be15ef-9f51-49dc-93f3-88046b531abb")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 5.08)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "44a05563-dd91-4b0a-b003-f584355fe8db")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 10.16)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "3648897c-ad84-4d64-8e9d-9e3445a1556d")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 10.16)
+		(size 3.81 3.81)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "d2e14265-1bd3-4739-ad41-28b1882c493b")
+	)
+	(embedded_fonts no)
+)

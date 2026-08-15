@@ -1,0 +1,102 @@
+(footprint "40A fuse holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13c9afa5-f1d5-4045-8f50-692606b3105e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "40A fuse holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "019f3df8-feb1-470c-952a-fd458ec9b622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30587268-c9d1-45ec-9350-b7a1ea9247d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11c26a1f-159e-4b91-884c-4b297ae16301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e0efbb9f-8483-4cf1-a14b-a676c87e6e18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -14.1 0)
+		(size 2.5 2.5)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8179a5cd-f484-42ec-bc51-c408543946b5")
+	)
+	(pad "1" thru_hole circle
+		(at -6.5 0)
+		(size 2.5 2.5)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9eb145c9-854d-4db0-a585-2dcc1e49f915")
+	)
+	(pad "2" thru_hole circle
+		(at 6.8 0)
+		(size 2.5 2.5)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49ad4df8-8f52-4fac-8619-8eeedfed658f")
+	)
+	(pad "2" thru_hole circle
+		(at 14.4 0)
+		(size 2.5 2.5)
+		(drill 1.98)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ebbcf907-9511-4f20-9ca2-697fbfed20d1")
+	)
+	(embedded_fonts no)
+)

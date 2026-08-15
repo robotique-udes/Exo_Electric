@@ -1,0 +1,90 @@
+(footprint "Restart_button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RestartButton"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "427845a1-1c2a-4c3e-96b0-c3d46e15a5b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Restart_button"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8e66380-84d9-42e5-a9c4-9f0707b5ef2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aba82a1-1f6b-4434-bd82-d505484129d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3522b31c-18dc-484f-bef0-62960578f557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole circle
+		(at -2.5 -2.5)
+		(size 3.2 3.2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23903d63-0bd6-43d8-bb72-e0ad37f2fab3")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -2.5)
+		(size 3.2 3.2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9940cd09-1d06-4208-8c7c-d324f39dd3fb")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 2.5)
+		(size 3.2 3.2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86c687d4-8632-4354-b91d-51804fea3e04")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 2.5)
+		(size 3.2 3.2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b61d53d9-a3af-4730-b9db-6d5be8183ec4")
+	)
+	(embedded_fonts no)
+)

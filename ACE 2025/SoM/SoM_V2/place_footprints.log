@@ -1,0 +1,20 @@
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 647:Plugin executed on: 'win32'
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 648:Plugin executed with python version: '3.11.5 (main, Jan 19 2024, 08:13:45) [MSC v.1936 64 bit (AMD64)]'
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 649:KiCad build version: 8.0.1-rc1
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 650:Plugin version: 3.0.0
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 651:Frame repr: <wx._core.Frame object at 0x000001D5A3EAFD00>
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+08-03 11:15:00 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+08-03 11:15:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 830:Reference designator is: R
+08-03 11:15:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 831:Reference number is: 305
+08-03 11:15:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 863:Sorted and filtered list:
+['R301', 'R302', 'R303', 'R304', 'R305', 'R306', 'R307', 'R308', 'R309', 'R310', 'R311', 'R312', 'R313', 'R314', 'R315']
+08-03 11:15:01 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 359:wx.Colour(240, 240, 240, 255)
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 490:'5'
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 549:Preparing config for reference matrix
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 556:Saving config file
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 558:Saved the config file
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 901:Footprints to place:
+['R305', 'R306', 'R307', 'R308', 'R309', 'R310', 'R311', 'R312']
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.place_footprints 398:Starting placing with matrix layout
+08-03 11:15:47 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 971:Placing complete

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MDT320E01001")(type "KiCad")(uri "C:/Users/Jacob Turcotte/Documents/GitHub/Exo_Control/Electrique/Composantes_custom/MDT320E01001.pretty")(options "")(descr ""))
+)

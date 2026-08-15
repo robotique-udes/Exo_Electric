@@ -1,0 +1,22 @@
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 647:Plugin executed on: 'win32'
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 648:Plugin executed with python version: '3.11.5 (main, Jan 19 2024, 08:13:45) [MSC v.1936 64 bit (AMD64)]'
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 649:KiCad build version: 8.0.1-rc1
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 650:Plugin version: 3.0.0
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 651:Frame repr: <wx._core.Frame object at 0x0000020A2062F250>
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint REF** on root level
+08-22 16:30:32 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J101 on root level
+08-22 16:30:34 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 830:Reference designator is: J
+08-22 16:30:34 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 831:Reference number is: 307
+08-22 16:30:34 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 863:Sorted and filtered list:
+['J301', 'J302', 'J303', 'J304', 'J305', 'J306', 'J307', 'J308', 'J309', 'J310', 'J311', 'J312', 'J313']
+08-22 16:30:34 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 359:wx.Colour(240, 240, 240, 255)
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 490:'7,783'
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 536:Preparing config for reference linear
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 556:Saving config file
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 558:Saved the config file
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 901:Footprints to place:
+['J307', 'J308', 'J309', 'J310']
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.place_footprints 367:Starting placing with linear layout
+08-22 16:31:00 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 942:Placing complete

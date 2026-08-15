@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "connecteur_M2_key_E")(type "KiCad")(uri "${KIPRJMOD}/connecteur_M2_key_E.pretty")(options "")(descr ""))
+)

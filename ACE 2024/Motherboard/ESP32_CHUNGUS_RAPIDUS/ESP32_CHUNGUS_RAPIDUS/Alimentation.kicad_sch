@@ -1,0 +1,6233 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3d250d8a-57ba-4366-8e01-2bcacd8a6508")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Barrel_Jack_MountingPin"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:MIC5504-3.3YM5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC5504-3.3YM5"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Micrel LDO voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 72.39 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12f36dda-cbf1-436e-9512-3070edbbdc67")
+	)
+	(junction
+		(at 245.11 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219d1134-c7ed-4dab-bd51-e1eec082c401")
+	)
+	(junction
+		(at 214.63 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e8ec1f7-9b1f-476f-abdb-2e685b81e119")
+	)
+	(junction
+		(at 182.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3daa14bb-6c8d-4daf-98dd-50baae528052")
+	)
+	(junction
+		(at 245.11 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a7ad199-9d90-4150-b8dd-efffb900d3b8")
+	)
+	(junction
+		(at 224.79 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50486f79-6d48-4eb3-aeb4-da5a46cf9f92")
+	)
+	(junction
+		(at 214.63 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5242ec16-0623-4758-ace0-426ce1dd46ac")
+	)
+	(junction
+		(at 245.11 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0afbe5-7ddc-41ac-99ad-5494618af778")
+	)
+	(junction
+		(at 265.43 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87763e6a-8c0e-4c85-9a14-676303e717a4")
+	)
+	(junction
+		(at 255.27 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88532ab0-1d93-45a3-af8e-eb0b963ef4dd")
+	)
+	(junction
+		(at 224.79 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c9e38e-cdc2-4ce2-8814-e252fb33c469")
+	)
+	(junction
+		(at 234.95 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bddbdde-d7b2-4f48-83eb-450176f5525c")
+	)
+	(junction
+		(at 245.11 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a1de13-56e6-4e5b-95e0-632ff1a1456c")
+	)
+	(junction
+		(at 240.03 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5a358e-30d4-4c79-b33f-c3bfb97fc8d1")
+	)
+	(junction
+		(at 212.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e25733-9152-4ba3-879f-cdcc74d37860")
+	)
+	(junction
+		(at 265.43 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f8b57a-16f6-4057-af32-7eb4681e1913")
+	)
+	(junction
+		(at 182.88 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c599e605-b006-4a62-8c65-95b799dab8f6")
+	)
+	(junction
+		(at 212.09 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca2330bb-e5c6-4904-942b-f631dc784afd")
+	)
+	(junction
+		(at 87.63 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df99c0b2-4e03-4010-a315-fa08c5f6514e")
+	)
+	(junction
+		(at 234.95 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecdd6e9d-c533-4088-a990-ea379755d964")
+	)
+	(junction
+		(at 255.27 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44597e4-fc21-4825-8160-7ee744d30ded")
+	)
+	(no_connect
+		(at 59.69 36.83)
+		(uuid "2ccac22c-c640-48a5-abfc-2dd8733ee473")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 245.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032f9e35-fea2-43a8-bc9d-f20d288dc888")
+	)
+	(wire
+		(pts
+			(xy 184.15 22.86) (xy 182.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba42a08-e1ca-4c51-9e87-f9f13bb8a496")
+	)
+	(wire
+		(pts
+			(xy 113.03 27.94) (xy 113.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f16700e-7203-45b3-af1f-cf7663749442")
+	)
+	(wire
+		(pts
+			(xy 182.88 31.75) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1493a963-c091-4540-a7bd-d4bbfa8b0a67")
+	)
+	(wire
+		(pts
+			(xy 212.09 80.01) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174d07e0-d7bc-4486-85e1-f2041cb8a5bf")
+	)
+	(wire
+		(pts
+			(xy 217.17 91.44) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1764571d-fb61-492a-a82d-8457c8886e2a")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191b7916-9e3a-4004-9b8a-ee643ff9cef1")
+	)
+	(wire
+		(pts
+			(xy 212.09 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259901a5-7b73-4587-98c1-dbd809b0aada")
+	)
+	(wire
+		(pts
+			(xy 67.31 26.67) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8ad37e-1920-4e14-8a4f-35c318f379e5")
+	)
+	(wire
+		(pts
+			(xy 207.01 92.71) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30115a95-b160-4b42-a335-5794e6b5395b")
+	)
+	(wire
+		(pts
+			(xy 204.47 22.86) (xy 214.63 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308ad328-6e03-4a39-af04-53b94942d7d1")
+	)
+	(wire
+		(pts
+			(xy 85.09 31.75) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32561782-ffa8-403b-976b-de7147d30b41")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3383a572-2dbd-40e8-9868-7404ca6fe456")
+	)
+	(wire
+		(pts
+			(xy 144.78 59.69) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5d1e5b-0368-46c8-8637-8460c2f1d2aa")
+	)
+	(wire
+		(pts
+			(xy 255.27 82.55) (xy 255.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db7798a-5485-48cb-b407-a6e40cf2b996")
+	)
+	(wire
+		(pts
+			(xy 72.39 26.67) (xy 73.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fde6421-a61b-4f83-86eb-a4792ad34c38")
+	)
+	(wire
+		(pts
+			(xy 224.79 22.86) (xy 234.95 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038c388-2750-4b6d-98d8-b7f41fb2294e")
+	)
+	(wire
+		(pts
+			(xy 67.31 31.75) (xy 85.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b169c5-feea-45ca-b258-25b9b23924d9")
+	)
+	(wire
+		(pts
+			(xy 78.74 26.67) (xy 82.55 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a980eb-af7e-42c5-99d4-93df8d5788ea")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bfa7d2-52b0-4ac9-8b6f-4a68f5315916")
+	)
+	(wire
+		(pts
+			(xy 87.63 35.56) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575d6ec4-4520-42bb-a79c-0810d8e1573f")
+	)
+	(wire
+		(pts
+			(xy 245.11 22.86) (xy 255.27 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581a16af-c6e4-4441-8912-93d73c435479")
+	)
+	(wire
+		(pts
+			(xy 245.11 92.71) (xy 255.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbcfed6-57e9-436c-8bee-66a726252915")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7d5e24-d040-4e02-a666-b9e2b7ed307f")
+	)
+	(wire
+		(pts
+			(xy 214.63 22.86) (xy 224.79 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f962a78-2c81-41f1-a6a0-453c7107599f")
+	)
+	(wire
+		(pts
+			(xy 182.88 22.86) (xy 182.88 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a9a563-592d-4397-bfd3-d2fd20d7abcd")
+	)
+	(wire
+		(pts
+			(xy 265.43 22.86) (xy 275.59 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d54c73-30f9-402d-95ce-8837dc4d9538")
+	)
+	(wire
+		(pts
+			(xy 255.27 91.44) (xy 255.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695e469b-0110-486a-81c2-71a85d122e52")
+	)
+	(wire
+		(pts
+			(xy 207.01 83.82) (xy 207.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7039bd-bfd6-4b76-9a1f-5bf35be5f38c")
+	)
+	(wire
+		(pts
+			(xy 245.11 80.01) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cc5a16-f065-42f8-be0e-7845f3955309")
+	)
+	(wire
+		(pts
+			(xy 255.27 22.86) (xy 265.43 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72338d0b-cc52-42d5-b5db-cb9fc13076d5")
+	)
+	(wire
+		(pts
+			(xy 245.11 91.44) (xy 245.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7484ffa8-a823-4806-84ef-ca6c042bee1f")
+	)
+	(wire
+		(pts
+			(xy 204.47 30.48) (xy 214.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7784aaf2-ba3d-40c6-be8a-b9078d246c4d")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77aac3df-5f80-49c9-8ed2-e180411f1f59")
+	)
+	(wire
+		(pts
+			(xy 90.17 34.29) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798fcd97-db26-4e68-a2ee-749ed7e2189b")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.94) (xy 113.03 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b36a55f-ac10-470e-8f9a-21d97a43ace4")
+	)
+	(wire
+		(pts
+			(xy 113.03 30.48) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3959be-99b2-4ae1-a062-43cb89bbe61e")
+	)
+	(wire
+		(pts
+			(xy 144.78 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c10de70-d74a-4f60-a33a-5792f10c0bbd")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 245.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d661e28-54bf-43d3-b8bb-05e642f73c0a")
+	)
+	(wire
+		(pts
+			(xy 207.01 82.55) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdf8187-0f08-4e5a-b01c-b0b2cd29ffee")
+	)
+	(wire
+		(pts
+			(xy 144.78 22.86) (xy 158.75 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949d50ae-726c-4087-a9c9-7c9e2ff8fbab")
+	)
+	(wire
+		(pts
+			(xy 104.14 26.67) (xy 113.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef079e-2850-4e29-a185-97dc9ee487c9")
+	)
+	(wire
+		(pts
+			(xy 214.63 30.48) (xy 224.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e00ef8b-207a-4071-8153-1f19406b51dc")
+	)
+	(wire
+		(pts
+			(xy 245.11 30.48) (xy 255.27 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a043527a-821a-4b27-9257-4eb6db960b82")
+	)
+	(wire
+		(pts
+			(xy 234.95 22.86) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c81b81-c7bf-4f96-aa0c-a124d68a8f13")
+	)
+	(wire
+		(pts
+			(xy 240.03 30.48) (xy 245.11 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a553f758-91f4-4d19-9804-8199bf2cac47")
+	)
+	(wire
+		(pts
+			(xy 255.27 30.48) (xy 265.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf053ef-6779-4fad-85f1-08f1adeb99ee")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 151.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad927878-999c-4988-9728-2d871165bdc2")
+	)
+	(wire
+		(pts
+			(xy 245.11 82.55) (xy 255.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06c3a20-3d53-41eb-b5e8-a5027a0df4d8")
+	)
+	(wire
+		(pts
+			(xy 184.15 59.69) (xy 182.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58fe40b-7e73-4335-8d4c-65c20c431a3f")
+	)
+	(wire
+		(pts
+			(xy 265.43 30.48) (xy 275.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d08715-04fa-4dc9-8888-afa4fe9738dd")
+	)
+	(wire
+		(pts
+			(xy 113.03 31.75) (xy 113.03 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b824d5b3-6fd8-4822-8f6c-971eaca2ce14")
+	)
+	(wire
+		(pts
+			(xy 234.95 83.82) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba52b21c-b77f-4516-ad54-b61d550558c3")
+	)
+	(wire
+		(pts
+			(xy 144.78 22.86) (xy 144.78 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab90969-dccc-4802-8be0-5a8b25e2afe7")
+	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 90.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2f58c4-bef4-49f3-97a6-74aa6fd4b9df")
+	)
+	(wire
+		(pts
+			(xy 182.88 22.86) (xy 179.07 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced1009c-f997-4339-994a-e3df3ba82bd4")
+	)
+	(wire
+		(pts
+			(xy 234.95 82.55) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16b564e-225e-429b-9bcd-78e1c8749015")
+	)
+	(wire
+		(pts
+			(xy 72.39 24.13) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22fe1f9-ee6b-400f-9b46-af129cc593ea")
+	)
+	(wire
+		(pts
+			(xy 92.71 26.67) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49f27f1-bad6-4089-a953-c227282aad65")
+	)
+	(wire
+		(pts
+			(xy 217.17 82.55) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71d3de4-b7a9-46ae-8034-e50e7270561d")
+	)
+	(wire
+		(pts
+			(xy 234.95 30.48) (xy 240.03 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5059f1f-a128-4989-a905-dab7338120bc")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6066555-f316-48e6-ab9c-db60ba739ba8")
+	)
+	(wire
+		(pts
+			(xy 234.95 91.44) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fa48b9-56b7-49ff-81aa-1f3429002472")
+	)
+	(wire
+		(pts
+			(xy 90.17 31.75) (xy 113.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef40b543-7b89-4fc7-82c2-499271797bb3")
+	)
+	(wire
+		(pts
+			(xy 224.79 30.48) (xy 234.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f321747a-8efa-42f1-9501-0a0e901370b1")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74f2fa2-cd42-4d0e-b1d1-ee5c417eae11")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f760940d-37e1-44d4-b612-b81453ce6bab")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f892aa13-1fd0-4dd0-b7a9-d07604b9004a")
+	)
+	(rectangle
+		(start 140.97 49.53)
+		(end 199.39 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34366c40-50dd-43ad-8e72-ad59f742a574)
+	)
+	(rectangle
+		(start 200.66 12.7)
+		(end 284.48 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40277b07-5ecb-4cf2-8c65-320567e7c4f5)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 46.99 41.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 419a7331-268f-4773-affd-e600b7034a2a)
+	)
+	(rectangle
+		(start 140.97 12.7)
+		(end 199.39 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83b4243c-2ac9-4d43-aeb3-7c730f10d7c9)
+	)
+	(rectangle
+		(start 200.66 73.66)
+		(end 226.06 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b47824b-a6e0-4fe9-a2b9-56733b042e2d)
+	)
+	(rectangle
+		(start 227.33 73.66)
+		(end 284.48 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e8324e8-a624-41e9-bea6-216a970164eb)
+	)
+	(rectangle
+		(start 48.26 12.7)
+		(end 139.7 41.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e32e11a4-de61-4baa-b21e-28fe32c350d3)
+	)
+	(text "@Powerflag management"
+		(exclude_from_sim no)
+		(at 12.7 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ae0ed33-1425-48ee-997d-f7d5b97abca2")
+	)
+	(text "Decoupling PCA"
+		(exclude_from_sim no)
+		(at 227.33 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3443b92d-586f-4444-85c5-76c9e08f431d")
+	)
+	(text "@Power connector"
+		(exclude_from_sim no)
+		(at 48.26 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d408f6f-3370-42ea-a40b-3a0e4c7ae4fa")
+	)
+	(text "Decoupling TCA"
+		(exclude_from_sim no)
+		(at 200.66 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9409f90b-feb3-4b4b-b95d-cd962ca7c216")
+	)
+	(text "@3v3 Alimentation MCU principale\n"
+		(exclude_from_sim no)
+		(at 140.716 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b525a245-87f8-4799-aac5-5b8801b7a208")
+	)
+	(text "@Condensateur pour le circuit de protection statique (I2C)"
+		(exclude_from_sim no)
+		(at 200.66 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f1a5ba-d303-4ec3-a374-10dad565a32b")
+	)
+	(text "@3v3 Alimentation MCU principale\n"
+		(exclude_from_sim no)
+		(at 140.716 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb433c25-331b-415f-b61f-a4f111b8de9a")
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 184.15 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d7bb698-03d1-4075-b333-dd1d195eb009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.7552 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 30.48 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d9a6007-e456-4eca-a6ac-cb6442e0524b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.48 14.6133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 151.13 31.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "385c2c1c-1739-4394-91f1-abb1ef1369be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 41.2667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 113.03 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4edb18c9-9559-4ec9-8c60-e6762b16f583")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 17.1533 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 245.11 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52a9d0ca-bada-4496-a5c8-55702a959210")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.7152 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 144.78 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "680d7416-f84b-4d65-8737-5a004952c404")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 13.3433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 184.15 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "957dfa34-d820-482c-a72c-857f7322dd35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.7552 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 212.09 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96e43167-89f9-4e63-9dd3-69ea7932acf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.6952 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 151.13 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a146a06f-e646-4120-b059-180c977e5c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 78.0967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 40.64 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1385559-cdda-4f55-862a-1686bcc0806d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 13.5248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_3v3"
+		(shape input)
+		(at 240.03 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea35bcee-31f6-4a56-b28a-693a7b006e9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 12.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc_5V"
+		(shape input)
+		(at 144.78 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f806bae1-d788-4229-a7b5-d94d6c817d98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 50.1733 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0302a3ec-5f77-491d-88a5-60b33c399312")
+		(property "Reference" "#PWR0212"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37937813-0e59-4b0e-9b30-d04a9a3b21e5")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "053c71ba-97cd-49e6-92a1-f141901ac9a9")
+		(property "Reference" "C211"
+			(at 227.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 227.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 225.7552 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4cfa3b-2218-48b4-aa8f-f8f160314eb1")
+		)
+		(pin "2"
+			(uuid "014f579c-9e31-4e26-9b49-846e96ba965f")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C211")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06bb1d06-6f0c-49e6-a60a-9530425b3098")
+		(property "Reference" "C203"
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 185.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 183.8452 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb009c3-828d-4a2e-bdbc-2dc68aa37814")
+		)
+		(pin "2"
+			(uuid "aeeb041d-4fbe-4d09-8dac-3d2a5ed5ded8")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06d5b0b5-8a20-454d-a190-76708e88f1d9")
+		(property "Reference" "#PWR0219"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc65cb8-be26-4603-b023-d49d8d7d2350")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
+		(at 168.91 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06fbc89f-1ea0-4685-8e80-8e47d0874a28")
+		(property "Reference" "U201"
+			(at 168.91 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5504-3.3YM5"
+			(at 168.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+			(at 162.56 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca29666-fd24-47b5-83af-2a8297c90437")
+		)
+		(pin "1"
+			(uuid "d51cfffb-7cb5-4577-b916-055076ad5ea3")
+		)
+		(pin "2"
+			(uuid "afe06ead-2662-4976-8d6f-5b8099527e10")
+		)
+		(pin "3"
+			(uuid "e77d34b5-4ff2-44fb-8ddd-1f82d13bc532")
+		)
+		(pin "4"
+			(uuid "44856f4d-8467-4c87-bd07-bcc12c654c7c")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_MountingPin")
+		(at 59.69 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d96b706-8874-4b38-87d0-43e64b2187f2")
+		(property "Reference" "J201"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Power"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 60.96 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88591000-2ce5-4506-9b31-2e1f30b4f818")
+		)
+		(pin "1"
+			(uuid "ab21a3e2-30ae-4075-bac6-2e8524be96b4")
+		)
+		(pin "MP"
+			(uuid "2ac99e89-fa9a-4e84-adb0-f77fdd9a6784")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160461a4-d015-416f-a7ac-48ce62fecae9")
+		(property "Reference" "#PWR0219"
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd5d042-50dc-4178-aba2-be99d97fed92")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235eda26-160a-439a-844a-de85ea6171a1")
+		(property "Reference" "#FLG0204"
+			(at 40.64 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c1556fd-ecb0-4277-a87c-a19a933b03c1")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#FLG0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31bef39a-2d9f-4811-b2a2-25c303a3ed45")
+		(property "Reference" "C215"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 235.9152 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "316385fc-978d-469a-b49b-54d7cf266e05")
+		)
+		(pin "2"
+			(uuid "e9ff5bfe-bc9c-457e-aeed-1b418ee06098")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C215")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f5955d-e7d6-4a01-8558-abc75b0eba57")
+		(property "Reference" "C202"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 145.7452 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c1a6d89-ea0f-4b18-ab99-6117dbe96eb1")
+		)
+		(pin "2"
+			(uuid "27ce4f7d-be04-4c47-b2ea-48193a7ff5f4")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 275.59 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40bff6b0-7223-460d-abcb-37124fedfec2")
+		(property "Reference" "C224"
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 278.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 276.5552 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a84e7b11-c86f-422f-88f3-5026af66dfd2")
+		)
+		(pin "2"
+			(uuid "cc587df0-5374-4cb0-80ea-4129de64d0b9")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C224")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "492682f9-bb51-471b-8a7f-9274e21a12fd")
+		(property "Reference" "#FLG0202"
+			(at 30.48 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 30.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef7fd9f-1d85-47f6-a1e1-4b6914092a3a")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ab4de48-1198-4c9e-b81b-db87700e495d")
+		(property "Reference" "C216"
+			(at 247.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 247.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 246.0752 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed45f53f-4540-40cd-a23f-3287a56105c5")
+		)
+		(pin "2"
+			(uuid "22a051e6-cb6d-4d4e-95f6-50b4e433da9c")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C216")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5147b541-9c24-440e-a07f-ed173cf1eb16")
+		(property "Reference" "#PWR0211"
+			(at 212.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97bf6179-f455-4d62-a434-4e6e7ec2f801")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54284baf-8f26-45ed-96ac-6ae4c303b649")
+		(property "Reference" "#PWR0219"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a038b4-31b4-47aa-92da-37e15fdec7d6")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "590ad700-e1f3-409e-bac9-df90a1e1fd82")
+		(property "Reference" "#PWR0219"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef1c93a0-68e1-4a78-9a20-888e17568e27")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "597184be-a350-404e-8696-c3a475d9ebba")
+		(property "Reference" "C205"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 205.4352 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a20f7c-f4a8-460f-adee-144143d9c022")
+		)
+		(pin "2"
+			(uuid "7e5a15fc-7e24-45f0-8e4f-7f187662ada0")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60651299-5eda-4804-94dd-2c67bcc5a659")
+		(property "Reference" "#PWR0206"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7247e5c5-4dc9-43f9-b130-7ca1f8ccdeaf")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
+		(at 168.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6459d62e-e8a9-424b-8c96-3b49fe4eab66")
+		(property "Reference" "U202"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5504-3.3YM5"
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4b8969d3-e19a-4fe5-b912-c457d12d2f7e")
+		)
+		(pin "1"
+			(uuid "bd5d020b-a48e-4620-8c1d-5af25e5fea7e")
+		)
+		(pin "2"
+			(uuid "16718e89-fa58-4162-a6e1-fde0894a758d")
+		)
+		(pin "3"
+			(uuid "84658329-0549-41ee-a816-446613519b46")
+		)
+		(pin "4"
+			(uuid "4a0b9c3c-8406-4c05-bdfa-4fcd6ae2871e")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "U202")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "671b2b9c-878c-4003-a017-87157dbe0144")
+		(property "Reference" "#PWR0219"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdad072b-df7c-4ea0-93a4-93ba33c1543c")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a78f2ee-04f8-4cb9-baee-f766483cac25")
+		(property "Reference" "C222"
+			(at 267.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 267.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 266.3952 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc206b2-6cd3-4fd7-953e-b39bf3da8563")
+		)
+		(pin "2"
+			(uuid "9ee5a6ed-1cc8-4416-968d-7ce324a2adb3")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C222")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255.27 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ac1b9b1-5cee-4111-9206-2845426cc143")
+		(property "Reference" "C221"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 256.2352 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e9c217-c76f-4213-81ba-2eb310a64f4b")
+		)
+		(pin "2"
+			(uuid "f83fa4a0-0138-45c2-b4d0-b1d4610c8b0a")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C221")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e54518e-73f5-4332-aa39-8f10c82c63ff")
+		(property "Reference" "C208"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 217.17 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 215.5952 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16cb70c-6dab-4d97-bf33-1f4a84b7a977")
+		)
+		(pin "2"
+			(uuid "98af630d-6fec-4fd8-8317-da1097f77c03")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C208")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 20.32 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8253b69e-573d-446f-8999-9e90890d95bd")
+		(property "Reference" "#PWR0201"
+			(at 20.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 20.32 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50ebf90-226c-49fd-b089-d7a146dbf517")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8502da69-86d1-47e3-84c1-a97a4cef722e")
+		(property "Reference" "C210"
+			(at 219.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 218.1352 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93b70642-cb56-4804-927c-60df34fef6a3")
+		)
+		(pin "2"
+			(uuid "1a421d27-4e7d-4233-914c-c975e5a044dc")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C210")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 20.32 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89fa5d85-7e29-4269-9a50-f0dcb559fe28")
+		(property "Reference" "#FLG0201"
+			(at 20.32 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 20.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d23755-3ac4-484f-b378-1216cf15d161")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8caa283d-0130-4478-a0d5-718b2f39b767")
+		(property "Reference" "C204"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 183.8452 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68c6416a-b1b9-4010-ba4b-8647164a7c3b")
+		)
+		(pin "2"
+			(uuid "db3aaff3-a37b-4981-81ee-e649d4e327b5")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 87.63 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907f2dc4-6d50-4c0f-86a5-5b4ab5aeb548")
+		(property "Reference" "Q201"
+			(at 87.63 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 87.63 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 89.535 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 87.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b18a591c-068a-4109-91e2-90c6efae2ca9")
+		)
+		(pin "2"
+			(uuid "af43fcc0-c59a-4564-979e-8e2a37aa2190")
+		)
+		(pin "1"
+			(uuid "01cda5f0-0694-4acf-9275-1b45866faeed")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "Q201")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "Q201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "910ed1f3-cae1-4a83-9f2a-6c37aaa0ca4e")
+		(property "Reference" "#PWR0219"
+			(at 182.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e59442c-b458-4a99-b6fd-ba0d90bdae08")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 101.6 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "934fc218-de41-4d96-8f14-321ee7fc4250")
+		(property "Reference" "FB201"
+			(at 101.6 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600 @ 100MHz"
+			(at 101.6 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acfce93c-bfa0-4751-a7e3-668eb0e19f0e")
+		)
+		(pin "1"
+			(uuid "204b07a9-2e98-401a-a530-ded02723eb69")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "FB201")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "FB201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a321c21f-3cea-4b55-84ef-956f98382ae8")
+		(property "Reference" "C207"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 207.9752 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d432d6f-e43e-4c7a-a89b-6f69395fe8c8")
+		)
+		(pin "2"
+			(uuid "0e9ac085-90bc-4358-99f0-385c262cafd1")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C207")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 76.2 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a39bbb3d-9cd4-4056-9b12-507a214f15c5")
+		(property "Reference" "F201"
+			(at 76.2 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1,5A"
+			(at 76.2 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 81.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b447e946-f1f9-4a54-b7cc-5c34e1222b58")
+		)
+		(pin "1"
+			(uuid "884af68b-55d1-4911-b0f2-dee33d9dc12c")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "F201")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "F201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3ac82a9-2a59-4b7d-ab95-9631d6141f34")
+		(property "Reference" "C213"
+			(at 237.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 237.49 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 235.9152 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a94508-c56c-4f16-9510-77a8209ceab9")
+		)
+		(pin "2"
+			(uuid "0a9048f4-f548-4cd7-b40d-3cab0222ad7a")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C213")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7b95d51-2152-4f2b-a528-258351436a41")
+		(property "Reference" "C201"
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 145.7452 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b363f88a-801b-47b1-98a2-e1f1fb024943")
+		)
+		(pin "2"
+			(uuid "7531e6f7-4c84-47c3-a19c-f8b2a3bd6158")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 154.94 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f80a9c-2de3-498d-a00c-0397ded5a0a3")
+		(property "Reference" "JP202"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dbb8a71-25ef-4489-b7b4-4a42b3fe3a53")
+		)
+		(pin "1"
+			(uuid "09b14ea7-0203-403e-85f9-9281543a703d")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "JP202")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "JP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bec126f0-53c1-4757-a8d5-0a18365705a3")
+		(property "Reference" "#PWR0219"
+			(at 144.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba241f2-532f-4dda-a38f-4fb3c63a78ff")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 72.39 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc5eb4ca-bb89-4cc4-9e1e-88106ae65c45")
+		(property "Reference" "#PWR0201"
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 72.39 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a63a7fe-b10e-4ad1-9c6b-a67717189de3")
+		)
+		(instances
+			(project "Custom_ST-Link"
+				(path "/6e1819a2-26a4-4a4e-9877-12c5992434f8/40e35b9b-7374-44eb-8e98-dc54d87709c5"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255.27 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1c6fb82-8348-4a9a-ad83-a06d4a188f0b")
+		(property "Reference" "C219"
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 257.81 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 256.2352 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d9edd17-a688-4375-9787-2da382e4ddb8")
+		)
+		(pin "2"
+			(uuid "06662396-5c32-436e-b2a0-f68a0bfa79b9")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C219")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1551a29-25e6-4682-b7cc-080d93f586dc")
+		(property "Reference" "#PWR0214"
+			(at 245.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d172eecf-27af-4434-8a36-854061491c3c")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 154.94 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9de44a9-af87-4a1b-8162-f34137f9a9f5")
+		(property "Reference" "JP201"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69c4a1cc-f3cf-4a40-93a0-ec7c22b5b48d")
+		)
+		(pin "1"
+			(uuid "fdeec7fe-65a0-4151-972b-728efaa34154")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "JP201")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "JP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa48a863-51f0-47e5-937e-94547197a328")
+		(property "Reference" "C218"
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 246.0752 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf470fd9-c9ea-4810-b807-275f5f43c54e")
+		)
+		(pin "2"
+			(uuid "ce634229-1951-4b04-9290-fd03519bcf97")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "C218")
+					(unit 1)
+				)
+			)
+			(project "STM32_BLUTH_V1"
+				(path "/f3e9b0db-5c85-4538-aae7-277bd6a045ab/0ac41225-2d63-4282-985f-d437ab8e378e"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 121.92 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe58b9af-f9ed-4f3c-9148-dd42a3ec8653")
+		(property "Reference" "J202"
+			(at 123.19 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_Hole_power"
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm"
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aed0639e-6ba7-461e-bf4c-32ef824b0af0")
+		)
+		(pin "1"
+			(uuid "d3dbe13c-521e-4bd3-9334-5b4902e887a7")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "J202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe8280ca-8b84-4e62-8d0e-e684c845386c")
+		(property "Reference" "#FLG0203"
+			(at 30.48 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c788ccb-963a-4150-9e95-df88d92c74f9")
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a/d620d65d-4e5b-4946-ab76-81dbf41ecd7c"
+					(reference "#FLG0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

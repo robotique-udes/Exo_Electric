@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a2d89bc7-21ef-4763-a61e-2543d6ecb74a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 12.7 107.95)
+		(size 129.54 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cfc2085-cc7e-45c0-84ac-dc248454cc87")
+		(property "Sheetname" "Contrôle"
+			(at 12.7 107.2384 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controle.kicad_sch"
+			(at 12.7 196.1646 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 15.24)
+		(size 128.27 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4d39872-1fe4-497d-b17b-c25ddef0adec")
+		(property "Sheetname" "Connection"
+			(at 156.21 14.5284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connection.kicad_sch"
+			(at 156.21 103.4546 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 15.24)
+		(size 129.54 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d620d65d-4e5b-4946-ab76-81dbf41ecd7c")
+		(property "Sheetname" "Alimentation"
+			(at 12.7 14.5284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 12.7 103.4546 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_CHUNGUS_RAPIDUS"
+				(path "/a2d89bc7-21ef-4763-a61e-2543d6ecb74a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Fuse_holder")(type "KiCad")(uri "${KIPRJMOD}/librairie/Fuse_holder.pretty")(options "")(descr ""))
+)
