@@ -5036,7 +5036,7 @@
 		(property "Reference" "J202"
 			(at -0.019999 -5.295001 90)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "848f8e7d-f34f-4161-a37a-401950b1ff50")
 			(effects
 				(font
@@ -15055,6 +15055,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MASTER SIDE"
+		(at 194.282144 54.1 0)
+		(layer "B.SilkS")
+		(uuid "670867da-d656-441f-91e9-cbcd9a3c73e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "ETH-UART"
 		(at 203.9 87.4 0)
 		(layer "B.SilkS")
@@ -15068,7 +15080,7 @@
 		)
 	)
 	(gr_text "ETH-UART"
-		(at 193 54.3 0)
+		(at 192.4 58.35 0)
 		(layer "B.SilkS")
 		(uuid "75cb24ff-450d-44d8-8d54-a06cdc9671b2")
 		(effects
