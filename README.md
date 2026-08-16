@@ -1,5 +1,5 @@
 # Description
-Ce répertoire rassemble les divers PCB de l'exosquelette à travers les compétitions. Il vise aussi à standardiser la création des schémas électriques ainsi que les PCB afin de les rendre plus lisibles et plus faciles à réviser et consulter.
+Ce répertoire regroupe les différents PCB de l'exosquelette au fil des compétitions. Il vise aussi à standardiser la création des schémas électriques ainsi que des PCB afin de les rendre plus lisibles et plus faciles à réviser et consulter. Les PCB avant 2026 ne suivent pas nécessairement le standard.
 
 # Structure du repo
 ```
@@ -25,10 +25,10 @@ main
 ```
 - Un dossier est créé pour chaque année de compétition
     - Contient un README.md décrivant le fonctionnement global du système électrique et présentant le schéma-bloc
-    - Contient le schéma-bloc en image et dans son format original décrivant l'intéraction entre entre les sous-systèmes électriques
+    - Contient le schéma-bloc en image et dans son format original décrivant l'interaction entre les sous-systèmes électriques
     - Un dossier est créé par PCB
         - Contient un README.md qui explique le fonctionnement du PCB et présente le schéma-bloc
-        - Contient le schéma-bloc en image et dans son format original décrivant l'intéraction entre les modules du PCB
+        - Contient le schéma-bloc en image et dans son format original décrivant l'interaction entre les modules du PCB
             - Un dossier est fait pour chaque version du PCB.
                 - La version 1_0 n'a pas besoin de README, mais les versions subséquentes devront en avoir un qui décrit les changements par rapport à la version antérieure.
                 - Contient tous les fichiers KiCad
@@ -46,7 +46,7 @@ Cette branche doit contenir le nom du PCB ainsi que sa version et le déroulemen
 
 ## Convention de versions:
 - V1.0  Premier prototype
-- V1.X  Corrections mineures qui ne demande pas de reccomander le PCB
+- V1.X  Corrections mineures qui ne demandent pas de recommander le PCB
 - VX.0  Révision majeure qui demande de recommander le PCB
 - Chaque révision doit être documentée dans le README avec une explication claire des changements par rapport à la version précédente.
 
