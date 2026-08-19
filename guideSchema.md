@@ -6,6 +6,9 @@ Les schémas doivent respecter les conventions suivantes :
 - Les mounting holes doivent être avec l'alimentation et priorisé les M3
 - Séparation par blocs fonctionnels
 - Chaque fonction doit être regroupée dans un rectangle avec un titre clair.
+- 
+<img width="1068" height="547" alt="image" src="https://github.com/user-attachments/assets/cea32143-c941-4061-8d8a-7a29e2df256c" />
+Exemplle de blocs fonctionnel
 
 Exemples :
 
@@ -15,23 +18,13 @@ Exemples :
 Chaque PCB a une page:
 - ALIMENTATION qui regroupe les protections électriques et les step-up et step-down. 
 - CONTROLE qui regroupe le contrôleur, la communication, les connecteurs de signaux et les petits circuits pour le fonctionnement du contrôleur
-- CAPTEUR qui regroupe les autres circuits de la carte 
+- CAPTEUR qui regroupe les autres circuits de la carte
 
-Exemples :
-
-
+<img width="1068" height="725" alt="image" src="https://github.com/user-attachments/assets/1eaf7bf1-19d5-4ebd-93fb-88bb079ce7e1" />
 
 Ajouter des notes lorsque la conception n'est pas évidente.
 
-Exemples :
-
-Capteur alimenté avant activation du driver moteur pour éviter un reset.
-
-Résistance choisie pour limiter le courant d'appel à moins de 2 A.
-
-Utilisation des pull-up resistors du ESP-32
-
-
+<img width="901" height="426" alt="image" src="https://github.com/user-attachments/assets/6f9f7326-a656-4970-b93e-89a9c2876344" />
 
 Datasheets
 
@@ -48,6 +41,8 @@ LSM6DSV320X Datasheet (STMicroelectronics)
 TCAN332 Datasheet (Texas Instruments)
 
 Aucune puce ne doit être utilisée sans avoir consulté sa datasheet.
+
+<img width="954" height="901" alt="image" src="https://github.com/user-attachments/assets/599bc589-14a8-4101-9f6f-43a170fa197a" />
 
 ## Notation des composants
 
