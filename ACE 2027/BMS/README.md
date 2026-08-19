@@ -1,12 +1,12 @@
-# Nom du PCB
+# BMS
+
 
 Description simple du PCB
 
 ## Objectif
-* Des points important à atteindre pour ce PCB
-* comme par exemple les connections requise 
-* ou les requis de puissances
-* ou les requis de programmations
+* Géré l'arrêt d'urgence de l'exosquelette
+* Intégré des fuses de sécurités
+* 
 
 ## Conception
 Information importante sur la conception et comment l'utilisé
