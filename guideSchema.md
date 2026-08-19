@@ -8,9 +8,6 @@ Les schémas doivent respecter les conventions suivantes :
 - Chaque fonction doit être regroupée dans un rectangle avec un titre clair.
 - 
 <img width="1068" height="547" alt="image" src="https://github.com/user-attachments/assets/cea32143-c941-4061-8d8a-7a29e2df256c" />
-Exemplle de blocs fonctionnel
-
-Exemples :
 
 - Utilisation des pages hiérarchiques
 - Créer une page distincte lorsqu'un bloc devient complexe, un PCB a beaucoup de blocs ou contient plusieurs exemplaires d'un composant.
@@ -41,8 +38,6 @@ LSM6DSV320X Datasheet (STMicroelectronics)
 TCAN332 Datasheet (Texas Instruments)
 
 Aucune puce ne doit être utilisée sans avoir consulté sa datasheet.
-
-<img width="954" height="901" alt="image" src="https://github.com/user-attachments/assets/599bc589-14a8-4101-9f6f-43a170fa197a" />
 
 ## Notation des composants
 
