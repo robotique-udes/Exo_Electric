@@ -1,53 +1,69 @@
-Création d'un PCB
+# Création d'un PCB
 
-Les sections sont placées dans l'ordre auquel elles devraient être faites. Ne changez pas trop les réglages par défaut de Kicad, les valeurs sont bien.
+Les sections sont placées dans l'ordre dans lequel elles devraient être faites. Ne changez pas trop les réglages par défaut de KiCad : les valeurs proposées sont généralement adaptées.
 
-## Contour(Edge cut)
-Il est recommandé de faire le contour sur Onshape pour pouvoir avoir une meilleure forme et plus simple à mettre à jour. 
-Oubliez pas d'inclure des trou pour des vis ou d'autres méthodes de fixation, sinon l'équipe structure ne vont pas vous aimée.
-Limitez la taille à 10 cm par 10 cm, car sinon les coûts explosent.
+> **À garder en tête**
+> - Pensez à la fabrication, à l'assemblage et au débogage dès le début.
+> - Limitez les changements de dernière minute : ils compliquent la validation du PCB.
 
-## Placement des composants
-Placez les connecteurs et les éléments utilisateur(LED/bouton) en premier pour qu'ils soient facilement accessibles et logiquement placés.
-Placer par la suite les composants importants ou qui ont des exigences complexes. Exemple : un ESP-32 est connecté à plusieurs affaires, donc une place centrale est utile. Un IMU doit être loin des sources électromagnétiques.
-Placé par la suite les composants qui on un placement critique. Par exemple, des condensateurs pour des puces doivent être proches des puces.
-Si le PCB a un enjeu de température, essayez de distancier les composants qui chauffent. Pensez à ceux qui vont soudé le PCB en plaçant les composant( pas trop proche si possible).
-Pensez à la hauteur des composants en les plaçant.
+## 1. Contour (*Edge Cuts*)
 
-## Tracé les pistes
-Essayez de rester sur 2 couches si possible.
-Tracer les pistes en priorisant les pistes différentielles et celles qui doivent être particulièrement courtes. Pour les pistes différentielles, limité la différence entre les pistes à un maximum de 1 mm.
+Il est recommandé de faire le contour sur Onshape afin d'obtenir une meilleure forme, plus simple à mettre à jour.
 
-<img width="710" height="509" alt="image" src="https://github.com/user-attachments/assets/c21afacc-8541-4768-b4fc-19b742e0c18a" />
+- N'oubliez pas d'inclure les trous de vis et les autres méthodes de fixation. L'équipe structure vous en remerciera.
+- Limitez la taille à **10 cm × 10 cm**, car les coûts augmentent rapidement au-delà de cette dimension.
 
-Faites ceux de puissance par la suite. Utilisez l'outil de calcul sur Kicad pour connaître la largeur des pistes requise. Limitez l'augmentation de température(Temperature rise) à 10ºC. Gardez les épaisseurs de cuivre à 1 oz/ft^2.
-Si vous avez l'espace, faites un ground plane. Ceci permet d'éviter les ground loops et diminue les perturbations et différences de tension sur le ground.
-Quand vous faites un plan (plane), mettez des thermal relief sinon ça va être horrible à souder.
-NE JAMAIS FAIRE DES ANGLE DE 90 DEGRES DANS LES PISTES.
+## 2. Placement des composants
 
-Mettez plusieurs vias quand pas mal de courant est prévu pour limiter les pertes causées par la résistance des vias.
+Suivez cet ordre de priorité :
 
-<img width="292" height="205" alt="image" src="https://github.com/user-attachments/assets/50810d25-b1e0-491b-a87b-3f65043b3d1f" />
+1. Placez les connecteurs et les éléments accessibles à l'utilisateur (LED, boutons, etc.) afin qu'ils soient facilement accessibles et logiquement disposés.
+2. Placez les composants importants ou ayant des exigences complexes. Par exemple, un ESP32 est connecté à plusieurs éléments : une position centrale est donc utile. Un IMU doit être éloigné des sources électromagnétiques.
+3. Placez les composants dont le positionnement est critique. Les condensateurs de découplage doivent notamment être proches des puces qu'ils servent.
+4. Si le PCB présente un enjeu thermique, éloignez les composants qui chauffent. Pensez également à l'espace nécessaire pour souder le PCB.
 
-Ne pas mettre de Vias sur un footprint sauf s'il est impossible de faire autrement. C'est une mauvaise pratique.
+> **Vérification mécanique**
+> Pensez à la hauteur des composants lors de leur placement et vérifiez qu'ils ne gênent pas l'intégration finale.
 
-<img width="728" height="710" alt="image" src="https://github.com/user-attachments/assets/78b9c20c-c039-4921-bdb1-d3a9c0cb3500" />
+## 3. Tracé des pistes
 
-Mettre des tests-points quand c'est possible pour aider le débogage. Ceux qui vont devoir reglé les problèmes vous remercie.
+- Essayez de rester sur **deux couches** si possible.
+- Tracez les pistes en priorisant les pistes différentielles et celles qui doivent être particulièrement courtes. Pour les pistes différentielles, limitez l'écart entre les deux pistes à **1 mm maximum**.
 
-## Sérigraphie/Silkscreen
-Il est important de mettre des informations pertinentes sur le PCB. IL est important de laisser le dessus professionnel. Pour le dessous, vous pouvez avoir un peu plus de fun.
+<p align="center"><img width="710" height="509" alt="Exemple de tracé de pistes différentielles" src="https://github.com/user-attachments/assets/c21afacc-8541-4768-b4fc-19b742e0c18a" /></p>
 
-### Information à mettre
-* Numéro des petits composants ou une méthode d'identification (nom de composant, utilité) Certains numéros peuvent être omis s'il y a un manque clair d'espace et aucune autre méthode.
-* Marquage important (Exemple sens d'un IMU)
-* Symbole Biogenius (rajouté ceux de Robotique UdeS s'il a la place)
-* Nom des concepteurs et des validateurs (vous faites du bon travail soyez fier!)
+Tracez ensuite les pistes de puissance. Utilisez l'outil de calcul de KiCad pour connaître la largeur requise. Limitez l'augmentation de température (*temperature rise*) à **10 °C** et gardez l'épaisseur de cuivre à **1 oz/ft²**.
 
-<img width="917" height="780" alt="image" src="https://github.com/user-attachments/assets/a19bc6eb-76de-4aef-b698-c02d419a6e27" />
+Si vous avez l'espace nécessaire, créez un plan de masse (*ground plane*). Il permet d'éviter les boucles de masse et de réduire les perturbations ainsi que les différences de tension sur la masse. Lorsque vous créez un plan, utilisez des connexions thermiques (*thermal relief*) : le PCB sera beaucoup plus facile à souder.
 
-### Warning qui peuvent être toléré
+> **Règle absolue**
+> **Ne faites jamais d'angles de 90° dans les pistes.**
 
-* Des silkscreens qui se supperpose
-* Des FOOTPRINTS manquant(causés par une modification des silkscreens )
-* Footprints not matching the one in the library (causés par une modification des silkscreens )
+Placez plusieurs vias lorsqu'un courant important est prévu afin de limiter les pertes causées par leur résistance.
+
+<p align="center"><img width="292" height="205" alt="Exemple de vias multiples" src="https://github.com/user-attachments/assets/50810d25-b1e0-491b-a87b-3f65043b3d1f" /></p>
+
+N'ajoutez pas de vias sur un footprint, sauf s'il est impossible de faire autrement. C'est une mauvaise pratique.
+
+<p align="center"><img width="728" height="710" alt="Exemple de vias à éviter sur un footprint" src="https://github.com/user-attachments/assets/78b9c20c-c039-4921-bdb1-d3a9c0cb3500" /></p>
+
+Ajoutez des points de test lorsque c'est possible pour faciliter le débogage. Les personnes qui devront régler les problèmes vous en remercieront.
+
+## 4. Sérigraphie (*Silkscreen*)
+
+Ajoutez des informations pertinentes sur le PCB. Le dessus doit rester professionnel; pour le dessous, vous pouvez vous permettre un peu plus de fantaisie.
+
+### Informations à ajouter
+
+- Numéro des petits composants ou méthode d'identification (nom du composant, utilité). Certains numéros peuvent être omis en cas de manque d'espace évident et s'il n'existe aucune autre méthode d'identification.
+- Marquages importants, par exemple le sens d'un IMU.
+- Symbole Biogenius, ainsi que ceux de Robotique UdeS si l'espace le permet.
+- Nom des concepteurs et des validateurs. Vous faites du bon travail, soyez-en fiers!
+
+<p align="center"><img width="917" height="780" alt="Exemple de sérigraphie" src="https://github.com/user-attachments/assets/a19bc6eb-76de-4aef-b698-c02d419a6e27" /></p>
+
+### Avertissements tolérés
+
+- Sérigraphies qui se superposent.
+- Footprints manquants, causés par une modification de la sérigraphie.
+- Footprints qui ne correspondent plus à ceux de la bibliothèque, à la suite d'une modification de la sérigraphie.
