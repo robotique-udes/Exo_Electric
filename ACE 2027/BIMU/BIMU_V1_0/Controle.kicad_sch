@@ -8243,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:SOT23-6L"
+		(property "Footprint" "BIMU:SOT23-6L"
 			(at 130.81 49.53 0)
 			(effects
 				(font

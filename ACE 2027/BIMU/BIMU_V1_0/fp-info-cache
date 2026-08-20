@@ -1,4 +1,4 @@
-27678383641916425
+27680170900701317
 Arduino MCU
 3 pin selector
 
@@ -265,6 +265,13 @@ audio belton reverb
 0
 7
 7
+BIMU
+SOT23-6L
+http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/e6/1c/4f/b6/9a/44/e6/CD00047494.pdf/files/CD00047494.pdf/jcr:content/translations/en.CD00047494.pdf
+
+0
+6
+6
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
