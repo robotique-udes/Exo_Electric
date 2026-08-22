@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "abeb93ed-b9ef-4503-99a7-3fce380ff294")
 	(paper "A5")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6937e765-eead-4ea7-ba07-6590a34338ab")
 		(property "Sheetname" "Alimentation"
 			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "Alimentation.kicad_sch"
 			(at 17.78 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +46,7 @@
 		(instances
 			(project "BIMU_V_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294"
-					(page "1")
+					(page "4")
 				)
 			)
 		)
@@ -60,11 +64,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8f76bfd3-393f-4bde-9261-417b092e4508")
 		(property "Sheetname" "Controle"
 			(at 17.78 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +80,8 @@
 		)
 		(property "Sheetfile" "Controle.kicad_sch"
 			(at 17.78 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,11 +110,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fb2c5cc6-e994-4380-96ca-0af61efa0b8a")
 		(property "Sheetname" "Capteur"
 			(at 17.78 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,6 +126,8 @@
 		)
 		(property "Sheetfile" "Capteur.kicad_sch"
 			(at 17.78 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
