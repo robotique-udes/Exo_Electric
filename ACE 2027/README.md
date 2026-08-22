@@ -16,13 +16,6 @@ Projet d’électronique et de communication pour l’exosquelette électrique.
 
 Le système est organisé autour d’une carte mère (**MoBo**, *Motherboard*) qui coordonne les modules. Le **BMS** supervise les batteries et la sécurité. Les **BIMU** mesurent les mouvements, tandis que les cartes d’interface des moteurs assurent leur raccordement au réseau.
 
-```mermaid
-flowchart LR
-	BMS[BMS\nBatteries et sécurité] <-->|Alimentation + CAN| MOBO[MoBo\nESP32 et contrôle]
-	MOBO -->|CAN + alimentation| BIMU[BIMU\nCapteurs IMU]
-	MOBO -->|CAN + alimentation| MOTEURS[Moteurs\nCartes d’interface]
-```
-
 ## Modules
 
 | Module | Rôle | Éléments principaux |
