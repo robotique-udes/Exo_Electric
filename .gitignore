@@ -1,1 +1,9 @@
+# =========================
+# KiCad local/temporary
+# =========================
+
+.history/
+*-backups/
+*.bak
 *.lck
+*.tmp
