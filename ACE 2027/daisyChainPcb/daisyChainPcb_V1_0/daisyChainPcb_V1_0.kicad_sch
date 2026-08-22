@@ -46,7 +46,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -92,7 +92,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -138,7 +138,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467"
-					(page "2")
+					(page "1")
 				)
 			)
 		)
