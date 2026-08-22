@@ -1,26 +1,73 @@
-L'objectif de l'exo est de faire que tout fonctionne par communication CAN.
-## Composants
+# ACE 2027
+
+Projet d’électronique et de communication pour l’exosquelette électrique.
+
+> **Objectif principal** : faire communiquer les différents modules de l’exosquelette via un bus CAN fiable, tout en distribuant l’alimentation et en assurant les fonctions de sécurité.
+
+## Sommaire
+
+- [Architecture](#architecture)
+- [Modules](#modules)
+- [Communication](#communication)
+- [Documentation du dépôt](#documentation-du-dépôt)
+- [À documenter](#à-documenter)
+
+## Architecture
+
+Le système est organisé autour d’une carte mère (**MoBo**, *Motherboard*) qui coordonne les modules. Le **BMS** supervise les batteries et la sécurité. Les **BIMU** mesurent les mouvements, tandis que les cartes d’interface des moteurs assurent leur raccordement au réseau.
+
+```mermaid
+flowchart LR
+	BMS[BMS\nBatteries et sécurité] <-->|Alimentation + CAN| MOBO[MoBo\nESP32 et contrôle]
+	MOBO -->|CAN + alimentation| BIMU[BIMU\nCapteurs IMU]
+	MOBO -->|CAN + alimentation| MOTEURS[Moteurs\nCartes d’interface]
+```
+
+## Modules
+
+| Module | Rôle | Éléments principaux |
+| --- | --- | --- |
+| **MoBo** | Carte mère et coordination de l’exosquelette | ESP32, conversion 5 V vers 3,3 V, filtrage de tension, connecteurs |
+| **BMS** | Gestion des batteries et fonctions de sécurité | Fusibles, arrêt d’urgence, suivi de l’état des batteries |
+| **BIMU** | Mesure et prétraitement des mouvements | IMU, traitement local des données, transmission via CAN |
+| **Moteur** | Raccordement des moteurs au réseau | Carte d’interface, chaînage (*daisy chain*), connecteurs de type Ethernet |
 
 ### MoBo
-C'est la carte mère(MOtherBOard) de l'exosquelette. Il a le ESP-32 qui controle tout l'exosquelette. Il a un convertisseur 5V à 3.3V et tout le reste est de la filtration de tension et des connecteurs.
+
+La MoBo est la carte mère de l’exosquelette. Elle contient l’ESP32, qui coordonne le système, ainsi qu’une conversion 5 V vers 3,3 V, le filtrage des tensions et les connecteurs nécessaires.
 
 ### BMS
-Il gère la gestion des batteries, les fuses et le l'arrêt d'urgence. Le but est aussi de pouvoir communiqué avec le MoBo pour lui donné des états sur les batteries.
 
-### BIMU 
-C'est des IMU qui font le traitement brutes des données directement sur le module avant de les préparé et les envoyés.
+Le BMS gère les batteries, les fusibles et l’arrêt d’urgence. Il doit également communiquer avec la MoBo afin de transmettre l’état des batteries.
 
-### Moteur 
+### BIMU
 
-Il a une carte d'interface sur le moteur pour pouvoir facilement Daisy Chains les cables et pouvoir utilisé les cables ethernet avec les moteurs.
+Chaque BIMU effectue localement le traitement initial des données de son ou de ses capteurs IMU, puis transmet les données préparées sur le bus CAN.
+
+### Moteurs
+
+Une carte d’interface est placée au niveau des moteurs. Elle facilite le chaînage des câbles et permet l’utilisation de câbles Ethernet pour le raccordement physique.
 
 ## Communication
-Toutes la communication à lieu avec des cables ethernets. Le principal branchement est le suivant:
 
-<img width="800" height="496" alt="Screenshot from 2026-08-21 22-36-26" src="https://github.com/user-attachments/assets/140933d3-990f-4e91-aace-11097b0aaab1" />
+Les modules communiquent principalement sur un bus CAN transporté par des câbles Ethernet. Le branchement général est représenté ci-dessous.
 
-<img width="267" height="229" alt="Screenshot from 2026-08-21 23-15-49" src="https://github.com/user-attachments/assets/fea70deb-7522-4bc5-b99a-96a7c220ccae" />
+![Schéma général du réseau de l’exosquelette](https://github.com/user-attachments/assets/140933d3-990f-4e91-aace-11097b0aaab1)
 
-Il branche tout sur l'exo sauf entre le MoBo et le BMS, car cette connection à besoin de plus de courant. Entre le MoBo et le BMS, il a cette conection:
+![Détail du raccordement des modules](https://github.com/user-attachments/assets/fea70deb-7522-4bc5-b99a-96a7c220ccae)
 
-<img width="618" height="550" alt="Screenshot from 2026-08-21 23-17-47" src="https://github.com/user-attachments/assets/0700c2c6-d3f0-442d-a39f-77646378ff67" />
+La liaison entre la MoBo et le BMS est particulière : elle doit fournir davantage de courant que les autres liaisons. Son raccordement est présenté ci-dessous.
+
+![Liaison entre la MoBo et le BMS](https://github.com/user-attachments/assets/0700c2c6-d3f0-442d-a39f-77646378ff67)
+
+### Règles CAN à définir
+
+Les éléments suivants doivent être précisés pour rendre l’architecture exploitable par toute l’équipe :
+
+- débit du bus CAN et longueur maximale des câbles ;
+- brochage des connecteurs et câblage exact de l’alimentation ;
+- identifiants CAN attribués à chaque module ;
+- format des messages, périodicité et unités des mesures ;
+- terminaison du bus et emplacement des résistances ;
+- comportement attendu en cas de perte de communication ou d’arrêt d’urgence.
+
