@@ -64,3 +64,4 @@ Par prudence et pour conserver une marge d'évolution, le convertisseur cible se
 - Protocole du handshake de sélection de batterie et comportement en cas de défaut.
 - Validation thermique du convertisseur 5 V, des MOSFET et des fusibles.
 - Courant admissible du câble Ethernet utilisé pour le 5 V sur la longueur finale.
+
