@@ -2,84 +2,185 @@
 
 > Carte de gestion, de protection et de distribution de l'alimentation de l'exosquelette.
 
-Carte de gestion et de distribution de l'alimentation de l'exosquelette.
+Le BMS est responsable de la gestion, de la protection et de la distribution de l'énergie du système. Il supervise les deux batteries, gère les séquences de commutation, protège les circuits contre les défauts et alimente les sous-systèmes critiques, notamment les rails **5 V** et **48 V**.
 
-Le BMS doit gérer l'arrêt d'urgence, la protection de deux batteries, leur sélection et la distribution des rails **5 V** et **48 V**. Il transmet également l'état du système au MoBo.
+## Vue d'ensemble
 
-## Objectifs
+Le BMS doit notamment :
 
-* Géré l'arrêt d'urgence de l'exosquelette
-* Intégré des fuses de sécurités(une par batterie, une par jambe, une pour le circuit 5V)
-* Avoir un circuit contre la reverse polarity(back current EMF)
-* Une stratégie de Handshake ou autre pour ne pas shorté les batteries ensembles(mosfet de controle)
-* LED pour confirmé que le circuit est alimenté(après les fuses pour connaitre l'état des fuse en même temps)
-* Pouvoir géré 4A à 48V continue
-* Pouvoir delivré 2.5A à 5V continue (5*200mA par BIMU et 400 mA pour le MOBO, le reste est pour le BMS) 
-* Pouvoir donner le pourcentage de batterie restante
-* Avoir une connection XT ??? par batterie
-* Avoir une conenction Ethernet pour la connection 5V et CAN
-* Avoir une connection XT30 par jambe
-* Pouvoir automatiquement changé de batterie
-* Avoir des lumières d'état autour des batterie
+- gérer l'arrêt d'urgence de l'exosquelette ;
+- protéger chaque batterie individuellement ;
+- sélectionner automatiquement ou manuellement la source d'alimentation active ;
+- distribuer les tensions **5 V** et **48 V** aux sous-systèmes ;
+- communiquer l'état du système au module principal (**MoBo**) ;
+- sécuriser les circuits vis-à-vis des courts-circuits, de la polarité inversée et des surintensités.
 
+## Objectifs fonctionnels
+
+- gérer l'arrêt d'urgence de l'exosquelette ;
+- intégrer des fusibles de sécurité : un par batterie, un par jambe et un pour le circuit 5 V ;
+- inclure une protection contre la polarité inversée (back-EMF / courant inverse) ;
+- mettre en place une stratégie de handshake ou équivalent pour éviter le court-circuit entre les batteries ;
+- ajouter des LED indiquant l'état d'alimentation après les fusibles pour vérifier rapidement leur état ;
+- gérer un courant continu de **4 A à 48 V** ;
+- fournir **2,5 A à 5 V continu** pour les sous-systèmes (BIMU, MoBo et alimentation du BMS) ;
+- fournir un indicateur de pourcentage de batterie restante ;
+- intégrer une connexion de batterie de type **XT ?** ;
+- prévoir une connexion Ethernet pour la distribution 5 V et le bus CAN ;
+- intégrer une connexion **XT30** par jambe ;
+- permettre le basculement automatique entre les batteries ;
+- inclure des indicateurs visuels d'état autour des batteries.
 
 ## Conception
 
-
-- Seuls les ESP32 du **MoBo** et du **BMS** disposent d'une connectivité sans fil. Les deux sont inclus dans le budget de puissance, mais seul le sans-fil du MoBo sera utilisé en fonctionnement normal. La consommation **MISC** représente une estimation des pertes du PCB, des pertes de conversion, des petits composants et des LED. **LED_BMS** correspond à la puissance disponible pour d'éventuelles LED décoratives. Elle ne fait pas partie du total et sera calculée lorsque les autres besoins seront figés.
+- Seuls les ESP32 du **MoBo** et du **BMS** disposent d'une connectivité sans fil. Les deux sont inclus dans le budget de puissance, mais seul le module sans fil du MoBo sera utilisé en fonctionnement normal.
+- La consommation **MISC** correspond à une estimation des pertes du PCB, des pertes de conversion, des composants annexes et des LED.
+- **LED_BMS** représente la puissance disponible pour des LED décoratives ou d'usage non critique. Elle ne fait pas partie du total de puissance de base et pourra être calculée une fois les besoins principaux fixés.
 
 ### Budget de puissance 5 V
 
-Les estimations ci-dessous utilisent le rail 3,3 V et une marge de conversion de 20 %.
+Les estimations ci-dessous supposent un rail **3,3 V** et une marge de conversion de **20 %**.
 
 | Charge | Hypothèse | Puissance estimée |
 | --- | --- | ---: |
-| MoBo | `(300 mA + 100 mA MISC) x 3,3 V` | **1,32 W** |
-| BIMU | `(35 mA + 100 mA MISC) x 3,3 V` | **0,45 W** |
-| BMS | `(300 mA + 100 mA MISC) x 3,3 V` | **1,32 W** + `LED_BMS` |
+| MoBo | `(300 mA + 100 mA MISC) × 3,3 V` | **1,32 W** |
+| BIMU | `(35 mA + 100 mA MISC) × 3,3 V` | **0,45 W** |
+| BMS | `(300 mA + 100 mA MISC) × 3,3 V` | **1,32 W** + `LED_BMS` |
 
-Un rendement de **80 %** est retenu pour le convertisseur principal vers 5 V. Cette hypothèse reste volontairement prudente, car la tension de batterie peut varier fortement et le convertisseur doit couvrir une grande plage de tension d'entrée.
+Un rendement de **80 %** est retenu pour le convertisseur principal vers **5 V**. Cette hypothèse est volontairement prudente, car la tension de batterie peut varier significativement et le convertisseur doit couvrir une large plage d'entrée.
 
 ### Estimation des besoins du circuit 5 V
 
 ```text
 P nécessaire = (1,32 W + 0,45 W + 1,32 W) / 0,80
-			 = 3,87 W
+            = 3,87 W
 
-I sous 5 V  = 3,87 W / 5 V
-			 = 0,774 A
+I sous 5 V = 3,87 W / 5 V
+           = 0,774 A
 ```
 
-Un convertisseur **5 V / 1 A** couvrirait donc l'estimation actuelle. Cependant, le câble Ethernet envisagé avec des conducteurs de **23 AWG** est donné pour environ **0,7 A par conducteur**. Avec trois conducteurs 5 V et trois conducteurs GND, la capacité théorique atteindrait `0,7 A x 3 = 2,1 A`.
+Un convertisseur **5 V / 1 A** couvrirait donc l'estimation actuelle. Cependant, le câble Ethernet envisagé, avec des conducteurs **23 AWG**, est généralement estimé à environ **0,7 A par conducteur**. Avec trois conducteurs 5 V et trois conducteurs GND, la capacité théorique atteint :
 
-Par prudence et pour conserver une marge d'évolution, le convertisseur cible sera choisi dans une plage de **2 à 4 A**, selon les besoins confirmés et les composants disponibles. Un fusible de **2 A** en amont du câble est envisagé.
+```text
+0,7 A × 3 = 2,1 A
+```
+
+Par prudence et pour garder une marge d'évolution, le convertisseur cible sera choisi dans une plage de **2 à 4 A**, selon les besoins confirmés et les composants disponibles. Un fusible de **2 A** en amont du câble est envisagé.
 
 ### Estimation des pertes de la diode de contrôle
 
-Le courant traversant la diode est estimé à partir du pire cas : **4 A sous 5 V**.
+Le courant traversant la diode est estimé dans le pire cas : **4 A sous 5 V**.
 
 ```text
-I diode = 4 A x 5 V / 0,8 / 60
-	= 0,42 A
+I diode = 4 A × 5 V / 0,8 / 60
+        = 0,42 A
 ```
 
-En utilisant la formule fournie dans la documentation :
+En appliquant la formule donnée dans la documentation :
 
 ```text
-P = 0,54 x IF + 0,08 x IF^2
-P = 0,54 x 0,42 A + 0,08 x (0,42 A)^2
+P = 0,54 × IF + 0,08 × IF^2
+P = 0,54 × 0,42 A + 0,08 × (0,42 A)^2
 P = 0,24 W
 ```
 
-Cette valeur correspond au pire cas et semble acceptable à ce stade. La température de fonctionnement devra être vérifiée avec le boîtier et le PCB définitifs.
+Cette valeur correspond au pire cas et semble acceptable à ce stade. La température de fonctionnement devra toutefois être vérifiée avec le boîtier et le PCB définitifs.
 
-## Points à confirmer
+---
 
-- Référence exacte des batteries, tension minimale et tension maximale.
-- Type de connecteur batterie (`XT ?`) et courant admissible réel.
-- Courant de démarrage et courant continu de chaque jambe.
-- Méthode de mesure de l'état de charge et précision attendue.
-- Protocole du handshake de sélection de batterie et comportement en cas de défaut.
-- Validation thermique du convertisseur 5 V, des MOSFET et des fusibles.
-- Courant admissible du câble Ethernet utilisé pour le 5 V sur la longueur finale.
+## Sécurité et protection des fusibles
 
+### Estimation du courant requis pour le rail 48 V
+
+Le système est composé de :
+
+- 4 moteurs, chacun consommant jusqu'à **0,8 A sous 48 V** ;
+- une charge auxiliaire (contrôle) de **1 A sous 5 V**.
+
+#### Courant nominal des moteurs
+
+```text
+I moteurs = 4 × 0,8 A
+          = 3,2 A
+```
+
+#### Courant équivalent de la charge 5 V
+
+En considérant un rendement du convertisseur de **80 %** :
+
+```text
+I 5V = (0,8 × 48 V) / (5 V × 1 A)
+     = 0,13 A
+```
+
+#### Courant total
+
+```text
+I total = 3,2 A + 0,13 A
+        = 3,33 A
+```
+
+#### Marge de sécurité
+
+Avec une marge de sécurité de **25 %** :
+
+```text
+I fusible = 3,33 A × 1,25
+          ≈ 4,17 A
+```
+
+Un fusible de **4 A** serait une valeur limite. Il serait judicieux d'envisager un fusible de **5 A** pour conserver une marge de fonctionnement plus confortable.
+
+### Courant de démarrage
+
+Le fusible doit supporter les pointes de courant produites lors du démarrage des moteurs sans ouvrir prématurément.
+
+Le courant réel pendant le démarrage est :
+
+```text
+I start = I normal + I spike
+```
+
+Pour un courant de démarrage approximativement constant :
+
+```text
+I²t = I start² × t start
+```
+
+Une marge de sécurité peut ensuite être appliquée :
+
+```text
+I²t requis = I²t × M
+```
+
+où **M** représente la marge de sécurité.
+
+### Calcul de la valeur de fusible pour un type slow blow
+
+Pour calculer la valeur de fusible adaptée à une protection de type **slow blow**, il faut utiliser la formule suivante :
+
+```text
+I²t = I peak² × t pulse
+```
+
+et déterminer la valeur requise pour la fusible en fonction du profil de courant.
+
+Un exemple de référence compatible avec ce type de besoins est disponible ici :
+
+https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/axial-radial-thru-hole-fuses#Zi1zZXJpZXM9MzcyJm5mLW1heGltdW1fYWNfdm9sdGFnZV92X2RlY2ltYWw9NzAuLi4xMDAwJm5mLW5vbWluYWxfbWVsdGluZ19pX3NxdWFyZWRfdF9hX3NxdWFyZWRfcGVyX3NlY29uZF9kZWNpbWFsPTE2Li4uMzImY3E9KCU0MGxldmVsdGhyZWVjYXRlZ29yeSUzRCUzRCUyMkF4aWFsJTIwUmFkaWFsJTIwVGhydSUyMEhvbGUlMjBGdXNlcyUyMiklMjAoJTQwbGV2ZWxudW1iZXIlM0QlM0Q3KSUyMCglNDBsZXZlbHR3b2NhdGVnb3J5JTNEJTNEJTIyRnVzZXMlMjIpJTIwKCU0MGxldmVsb25lY2F0ZWdvcnklM0QlM0QlMjJGdXNlcyUyMCUyNiUyME92ZXJjdXJyZW50JTIwUHJvdGVjdGlvbiUyMik=
+
+---
+
+## Points à confirmer avant validation finale
+
+- référence exacte des batteries, tension minimale et tension maximale ;
+- type de connecteur batterie (**XT ?**) et courant admissible réel ;
+- courant de démarrage et courant continu de chaque jambe ;
+- méthode de mesure de l'état de charge et précision attendue ;
+- protocole de handshake pour la sélection de batterie et comportement en cas de défaut ;
+- validation thermique du convertisseur 5 V, des MOSFET et des fusibles ;
+- courant admissible du câble Ethernet utilisé pour le 5 V sur la longueur finale.
+
+## Résumé
+
+Le BMS est un élément central du système d'alimentation. Il doit offrir une protection robuste, une gestion fiable de la source d'énergie, un basculement entre batteries sans court-circuit, ainsi qu'une alimentation stable de la logique de contrôle et des sous-systèmes. Les estimations actuelles indiquent que le rail 5 V doit être dimensionné pour un convertisseur de l'ordre de **2 à 4 A**, tandis que la protection du rail 48 V doit être étudiée avec une marge suffisante pour supporter les pointes de démarrage des moteurs.
