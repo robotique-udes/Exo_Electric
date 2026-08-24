@@ -1,11 +1,10 @@
-# BMS
+# BMS — Battery Management System
+
+> Carte de gestion, de protection et de distribution de l'alimentation de l'exosquelette.
 
 Carte de gestion et de distribution de l'alimentation de l'exosquelette.
 
-Le BMS doit gérer l'arrêt d'urgence, la protection des batteries, la sélection entre deux batteries et la distribution des rails **5 V** et **48 V**. Il transmet également l'état du système au MoBo.
-
-> **État du projet :** conception préliminaire  \
-> Plusieurs valeurs et choix de composants restent à valider avec les batteries et les charges réelles.
+Le BMS doit gérer l'arrêt d'urgence, la protection de deux batteries, leur sélection et la distribution des rails **5 V** et **48 V**. Il transmet également l'état du système au MoBo.
 
 ## Objectifs
 
@@ -41,7 +40,7 @@ Les estimations ci-dessous utilisent le rail 3,3 V et une marge de conversion de
 
 Un rendement de **80 %** est retenu pour le convertisseur principal vers 5 V. Cette hypothèse reste volontairement prudente, car la tension de batterie peut varier fortement et le convertisseur doit couvrir une grande plage de tension d'entrée.
 
-### Estimation
+### Estimation des besoins du circuit 5 V
 
 ```text
 P nécessaire = (1,32 W + 0,45 W + 1,32 W) / 0,80
@@ -54,6 +53,25 @@ I sous 5 V  = 3,87 W / 5 V
 Un convertisseur **5 V / 1 A** couvrirait donc l'estimation actuelle. Cependant, le câble Ethernet envisagé avec des conducteurs de **23 AWG** est donné pour environ **0,7 A par conducteur**. Avec trois conducteurs 5 V et trois conducteurs GND, la capacité théorique atteindrait `0,7 A x 3 = 2,1 A`.
 
 Par prudence et pour conserver une marge d'évolution, le convertisseur cible sera choisi dans une plage de **2 à 4 A**, selon les besoins confirmés et les composants disponibles. Un fusible de **2 A** en amont du câble est envisagé.
+
+### Estimation des pertes de la diode de contrôle
+
+Le courant traversant la diode est estimé à partir du pire cas : **4 A sous 5 V**.
+
+```text
+I diode = 4 A x 5 V / 0,8 / 60
+	= 0,42 A
+```
+
+En utilisant la formule fournie dans la documentation :
+
+```text
+P = 0,54 x IF + 0,08 x IF^2
+P = 0,54 x 0,42 A + 0,08 x (0,42 A)^2
+P = 0,24 W
+```
+
+Cette valeur correspond au pire cas et semble acceptable à ce stade. La température de fonctionnement devra être vérifiée avec le boîtier et le PCB définitifs.
 
 ## Points à confirmer
 

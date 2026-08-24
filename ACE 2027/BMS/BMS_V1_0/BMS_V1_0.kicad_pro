@@ -529,7 +529,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -672,6 +672,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -730,7 +742,7 @@
         "uuid": "abeb93ed-b9ef-4503-99a7-3fce380ff294"
       }
     ],
-    "used_designators": "#PWR5-16,SW1-4,TP4-6,R1-10,R103-110,D1-4,D106-107,C1-5,C106,U3-4,F1-2,Q1-4",
+    "used_designators": "J201-206,H401,#FLG201-204,Y201,#PWR5-16,#PWR201-229,#PWR401-413,#PWR501-506,#PWR601-606,SW1-4,SW201-202,SW501-502,SW601-602,TP4-6,TP201-202,TP401-403,R1-10,R103-110,R201-213,R301,R401-402,R501-508,R601-608,D1-4,D106-107,D201-204,D301,D401-409,D501-502,D601-602,C1-5,C106,C201-210,C301,C401-405,C501-502,C601-602,U3-4,U201-203,U401,U501,U601,F1-2,F501,F601,Q1-4,Q501-502,Q601-602",
     "variants": []
   },
   "sheets": [

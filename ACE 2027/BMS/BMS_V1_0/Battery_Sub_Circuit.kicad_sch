@@ -2019,6 +2019,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2181,6 +2320,16 @@
 		)
 		(uuid "04adefa8-d83b-433e-a61f-5a4b5c619846")
 	)
+	(text "VOLTAGE SENSE"
+		(exclude_from_sim no)
+		(at 313.944 210.058 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "214aa51b-47a1-4918-8f26-d1003ff6c288")
+	)
 	(text "Cette résistance force la gate à high\n(donc le courant ne circule pas)"
 		(exclude_from_sim no)
 		(at 86.868 114.3 0)
@@ -2212,6 +2361,16 @@
 		)
 		(uuid "7be195ba-fefc-484b-b0dd-c18b9d8e795c")
 	)
+	(text "CURRENT SENSE"
+		(exclude_from_sim no)
+		(at 246.888 209.804 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "a05a155f-1aad-49da-a8d7-f3088cbd73fe")
+	)
 	(text "Pull down pour ouvrir le transistor rapidement"
 		(exclude_from_sim no)
 		(at 153.924 67.056 0)
@@ -2231,6 +2390,16 @@
 			)
 		)
 		(uuid "ba7285ec-47e2-4c47-b97d-ee952ecbff06")
+	)
+	(text "EMF AND E-STOP"
+		(exclude_from_sim no)
+		(at 50.292 209.296 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "c5bdab99-7799-4094-9fd5-685611228980")
 	)
 	(text "Source"
 		(exclude_from_sim no)
@@ -2264,7 +2433,7 @@
 		(uuid "f388941f-d62f-47fd-97c7-d33f4b240e73")
 	)
 	(junction
-		(at 241.3 179.07)
+		(at 241.3 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06b20172-b7a3-44b4-bd02-a6a4a6bf72c7")
@@ -2288,16 +2457,22 @@
 		(uuid "24878e74-4e30-4d41-8b95-4515a6406ec0")
 	)
 	(junction
+		(at 237.49 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301bd719-841f-43fa-bfc3-9ce5242fd6ba")
+	)
+	(junction
+		(at 247.65 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445f2c89-2e9c-4f65-909b-15ab30f291ed")
+	)
+	(junction
 		(at 149.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49ceb635-1e17-48c9-96b8-927ccb37fc3c")
-	)
-	(junction
-		(at 223.52 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54dcfe5e-369d-4154-b5f7-1cdc345a93c5")
 	)
 	(junction
 		(at 121.92 72.39)
@@ -2318,7 +2493,7 @@
 		(uuid "84e1cf73-9b8b-4830-8631-4fdb5c75e9a6")
 	)
 	(junction
-		(at 219.71 163.83)
+		(at 219.71 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c23540e-d632-471e-9049-a24244b5b511")
@@ -2328,6 +2503,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d87ab6a-c9a7-455d-a0ef-c9d8c3deaefe")
+	)
+	(junction
+		(at 223.52 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b7ca7a3-5b98-4579-9cb0-bf8965d016ef")
 	)
 	(junction
 		(at 314.96 125.73)
@@ -2340,12 +2521,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba36ecd1-a90e-4d1c-8ef3-50bfe36067c6")
-	)
-	(junction
-		(at 237.49 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5bd06a6-c37e-4bf0-acf1-73dda5e65b36")
 	)
 	(junction
 		(at 90.17 125.73)
@@ -2365,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 189.23) (xy 250.19 189.23)
+			(xy 214.63 172.72) (xy 250.19 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 189.23) (xy 250.19 179.07)
+			(xy 250.19 172.72) (xy 250.19 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 181.61) (xy 259.08 179.07)
+			(xy 259.08 165.1) (xy 259.08 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 179.07) (xy 247.65 179.07)
+			(xy 241.3 162.56) (xy 247.65 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 179.07) (xy 219.71 176.53)
+			(xy 219.71 162.56) (xy 219.71 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 168.91) (xy 223.52 168.91)
+			(xy 242.57 152.4) (xy 223.52 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 173.99) (xy 237.49 173.99)
+			(xy 242.57 157.48) (xy 237.49 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 163.83) (xy 214.63 163.83)
+			(xy 219.71 147.32) (xy 214.63 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2675,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 179.07) (xy 241.3 179.07)
+			(xy 219.71 162.56) (xy 241.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2890,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 173.99) (xy 237.49 125.73)
+			(xy 237.49 157.48) (xy 237.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 168.91) (xy 223.52 125.73)
+			(xy 223.52 152.4) (xy 223.52 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2755,7 +2930,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 171.45) (xy 264.16 171.45)
+			(xy 257.81 154.94) (xy 264.16 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 179.07) (xy 252.73 179.07)
+			(xy 259.08 162.56) (xy 252.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 181.61) (xy 241.3 179.07)
+			(xy 241.3 165.1) (xy 241.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 163.83) (xy 247.65 163.83)
+			(xy 219.71 147.32) (xy 247.65 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 163.83) (xy 219.71 168.91)
+			(xy 219.71 147.32) (xy 219.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 163.83) (xy 214.63 189.23)
+			(xy 214.63 147.32) (xy 214.63 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2962,16 +3137,6 @@
 			(type default)
 		)
 		(uuid "fd64c4c4-8e32-4af3-bc64-c8c1cafe6aa1")
-	)
-	(label "ESP32 supply"
-		(at 243.84 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6e1f8f7-d393-4e80-bf62-e1c3b3acfb66")
 	)
 	(hierarchical_label "Voltage sense"
 		(shape input)
@@ -2997,7 +3162,7 @@
 	)
 	(hierarchical_label "Current sense"
 		(shape input)
-		(at 264.16 171.45 0)
+		(at 264.16 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,7 +3195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 181.61 0)
+		(at 259.08 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3040,8 +3205,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "177cdee5-5f20-4399-b2b6-6038c2e847d1")
-		(property "Reference" "#PWR08"
-			(at 259.08 187.96 0)
+		(property "Reference" "#PWR0503"
+			(at 259.08 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3052,7 +3217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 186.69 0)
+			(at 259.08 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3062,7 +3227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 181.61 0)
+			(at 259.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 181.61 0)
+			(at 259.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 181.61 0)
+			(at 259.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3265,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "#PWR08")
+					(reference "#PWR0503")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a378ede-93d7-4203-b76c-3ee7f835997d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q501"
 			(at 110.49 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,6 +3343,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 110.49 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "082c0619-d3cd-41e6-8c70-8624673d81d9")
 		)
@@ -3186,7 +3454,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "Q1")
+					(reference "Q501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "Q601")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37fee1b5-ee9d-4327-9b12-ae2c5e44c2de")
-		(property "Reference" "R107"
+		(property "Reference" "R503"
 			(at 152.4 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,6 +3542,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0c8b1da-7f35-4a3a-a8c3-7fc202d5fefc")
 		)
@@ -3279,7 +3650,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R107")
+					(reference "R503")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -3297,7 +3672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f9ac4a-f0ff-4881-9e97-d7a1c125d797")
-		(property "Reference" "R103"
+		(property "Reference" "R501"
 			(at 92.71 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,6 +3738,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ef578baa-5406-488c-9d5c-bbca1ebd389f")
 		)
@@ -3372,7 +3846,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R103")
+					(reference "R501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412e49a0-ccae-4233-82f6-b3660a76ce00")
-		(property "Reference" "R5"
+		(property "Reference" "R508"
 			(at 326.39 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,6 +3921,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 326.39 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48016661-5c47-4fd1-96f3-cb9849c755e2")
 		)
@@ -3452,7 +4029,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R5")
+					(reference "R508")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R608")
 					(unit 1)
 				)
 			)
@@ -3470,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd67f7d-aa75-45af-8af0-ccf03776d950")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0504"
 			(at 289.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -3530,7 +4111,93 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "#PWR011")
+					(reference "#PWR0504")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55cb79de-ad49-4db9-bf0e-bf09ca62982f")
+		(property "Reference" "#PWR0506"
+			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 247.65 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ae93083-332f-445a-9210-77bf589e45cc")
+		)
+		(instances
+			(project "BMS_V1_0"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
+					(reference "#PWR0506")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -3548,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58220593-5dd0-48e4-a515-389218498997")
-		(property "Reference" "R106"
+		(property "Reference" "R504"
 			(at 152.4 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,6 +4281,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f1aaafb-1ab2-409e-91ca-c99b39e3b35e")
 		)
@@ -3623,7 +4389,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R106")
+					(reference "R504")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -3641,7 +4411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "629bc916-38d6-46de-9d5d-447d596c6dcc")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0501"
 			(at 190.5 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3701,7 +4471,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "#PWR010")
+					(reference "#PWR0501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -3719,7 +4493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c1e698-df65-4f8e-81b6-cd031538fe34")
-		(property "Reference" "R105"
+		(property "Reference" "R502"
 			(at 124.46 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3785,6 +4559,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 121.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "040afac9-c9fd-4c81-b726-e13c09a04f01")
 		)
@@ -3794,7 +4667,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R105")
+					(reference "R502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -3812,7 +4689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651342c0-b5a6-4e4f-bd1e-5714e7e5d669")
-		(property "Reference" "SW1"
+		(property "Reference" "SW502"
 			(at 151.13 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3867,6 +4744,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 149.86 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cdda54e7-32f0-449c-819d-14ecd7360f44")
 		)
@@ -3876,7 +4852,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "SW1")
+					(reference "SW502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "SW602")
 					(unit 1)
 				)
 			)
@@ -3894,7 +4874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4f3195-8b07-411f-90d8-4593977b6f4c")
-		(property "Reference" "R1"
+		(property "Reference" "R505"
 			(at 231.14 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,6 +4927,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 231.14 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c8ce0da5-d4ad-4ed4-ab8d-05edba17ec15")
 		)
@@ -3956,7 +5035,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R1")
+					(reference "R505")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -3974,7 +5057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872b4722-62fd-4155-8230-5a385a36c2f6")
-		(property "Reference" "D1"
+		(property "Reference" "D501"
 			(at 113.03 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,6 +5112,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 110.49 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b161232f-5001-4c2a-ab5a-27286cf2bcfa")
 		)
@@ -4038,7 +5220,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "D1")
+					(reference "D501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "D601")
 					(unit 1)
 				)
 			)
@@ -4056,7 +5242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "992afb94-5c6d-4eaa-9e79-ee88fb2acff3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0505"
 			(at 336.55 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +5302,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "#PWR09")
+					(reference "#PWR0505")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -4133,7 +5323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77d41b6-8fef-4916-beb5-1b7ca0ba44ee")
-		(property "Reference" "Q2"
+		(property "Reference" "Q502"
 			(at 107.95 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4221,6 +5411,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 113.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ba1e1f5-9ed5-4bf7-8df8-f59c3d6cc9da")
 		)
@@ -4233,7 +5522,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "Q2")
+					(reference "Q502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "Q602")
 					(unit 1)
 				)
 			)
@@ -4241,7 +5534,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 172.72 0)
+		(at 219.71 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4251,8 +5544,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8bf9f01-64d9-4f0c-95bb-c5b6c85a4000")
-		(property "Reference" "C2"
-			(at 223.52 171.4499 0)
+		(property "Reference" "C501"
+			(at 223.52 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4263,7 +5556,7 @@
 			)
 		)
 		(property "Value" "0,1µF"
-			(at 223.52 173.9899 0)
+			(at 223.52 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4274,7 +5567,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 220.6752 176.53 0)
+			(at 220.6752 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 172.72 0)
+			(at 219.71 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +5589,106 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 219.71 172.72 0)
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 219.71 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +5707,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "C2")
+					(reference "C501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -4334,7 +5730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afc9be07-e4b9-4efc-9c37-398b3b95b52b")
-		(property "Reference" "D106"
+		(property "Reference" "D502"
 			(at 293.37 157.7974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,6 +5807,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 289.56 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5db60646-95b7-46d7-bc42-be44aef0f3d1")
 		)
@@ -4420,7 +5915,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "D106")
+					(reference "D502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "D602")
 					(unit 1)
 				)
 			)
@@ -4428,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Current:INA240A2PW")
-		(at 250.19 171.45 0)
+		(at 250.19 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4438,8 +5937,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b39e2cd6-7d04-44d5-b593-160806c3f3bc")
-		(property "Reference" "U3"
-			(at 262.89 165.0298 0)
+		(property "Reference" "U501"
+			(at 262.89 148.5198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4449,7 +5948,7 @@
 			)
 		)
 		(property "Value" "INA240A2PW"
-			(at 262.89 167.5698 0)
+			(at 262.89 151.0598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4459,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 250.19 187.96 0)
+			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina240.pdf"
-			(at 254 167.64 0)
+			(at 254 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +5980,106 @@
 			)
 		)
 		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, TSSOP-8"
-			(at 250.19 171.45 0)
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 250.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +6116,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "U3")
+					(reference "U501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -4526,7 +6128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 181.61 0)
+		(at 241.3 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4536,8 +6138,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf7b718-f9af-4966-bfd0-ba36fa7238f1")
-		(property "Reference" "#PWR07"
-			(at 241.3 187.96 0)
+		(property "Reference" "#PWR0502"
+			(at 241.3 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +6150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 186.69 0)
+			(at 241.3 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4558,7 +6160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 181.61 0)
+			(at 241.3 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 181.61 0)
+			(at 241.3 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4580,7 +6182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 181.61 0)
+			(at 241.3 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +6198,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "#PWR07")
+					(reference "#PWR0502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -4614,7 +6220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2d5706d-a8d3-4f73-a6fd-85af4fdda427")
-		(property "Reference" "SW2"
+		(property "Reference" "SW501"
 			(at 138.43 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,6 +6273,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4f88758-322e-4ec1-ad73-93d1d8bfb889")
 		)
@@ -4676,7 +6381,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "SW2")
+					(reference "SW501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "SW601")
 					(unit 1)
 				)
 			)
@@ -4694,7 +6403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3293860-8fa1-4000-abd3-489d0c94f2a5")
-		(property "Reference" "C3"
+		(property "Reference" "C502"
 			(at 340.36 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,6 +6458,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 336.55 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c676e847-b75d-4200-b17a-a1480d895854")
 		)
@@ -4758,7 +6566,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "C3")
+					(reference "C502")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -4776,7 +6588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68d440f-6b3a-42f6-a59f-c7f6813bf71e")
-		(property "Reference" "R6"
+		(property "Reference" "R507"
 			(at 317.5 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,6 +6643,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 314.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1323b19-eb98-4216-b283-70e190dd7a24")
 		)
@@ -4840,7 +6751,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R6")
+					(reference "R507")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -4858,7 +6773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faca0212-22c8-4d4f-852a-53b5a5a45f0f")
-		(property "Reference" "F1"
+		(property "Reference" "F501"
 			(at 40.64 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,6 +6826,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 40.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "44dc5224-6266-4438-8a23-030b377c3799")
 		)
@@ -4920,7 +6934,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "F1")
+					(reference "F501")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "F601")
 					(unit 1)
 				)
 			)
@@ -4938,7 +6956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff345eb7-b85c-4b69-a2de-6597442ff539")
-		(property "Reference" "R7"
+		(property "Reference" "R506"
 			(at 317.5 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,6 +7011,105 @@
 				)
 			)
 		)
+		(property "Category" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 314.96 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "75e1fbe0-4017-4124-ab65-8200919ced5f")
 		)
@@ -5002,7 +7119,11 @@
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/3082eddd-1090-4e43-a4f9-15043173df44"
-					(reference "R7")
+					(reference "R506")
+					(unit 1)
+				)
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab/37ad5e6c-60b7-45e9-975c-2deedeb98e1a"
+					(reference "R606")
 					(unit 1)
 				)
 			)
