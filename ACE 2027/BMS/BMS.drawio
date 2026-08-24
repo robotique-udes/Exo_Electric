@@ -28,9 +28,6 @@
                 <mxCell id="3" value="esp32" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="150" y="330" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="4" target="7" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="32" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -39,9 +36,6 @@
                 </mxCell>
                 <mxCell id="5" value="USB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="305" y="330" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="Ethernet port" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-290" y="330" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Power LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="365" y="170" width="120" height="60" as="geometry"/>
@@ -52,20 +46,14 @@
                 <mxCell id="24" value="ID LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="430" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="" style="edgeStyle=none;html=1;" parent="1" source="33" target="35" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="27" value="Connection batterie gauche" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-820" y="-100" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-650" y="-100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="État batterie gauche" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="-820" y="-20" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-650" y="-20" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="Ethernet port" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-290" y="250" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=none;html=1;" parent="1" source="33" target="35" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="" style="edgeStyle=none;html=1;" parent="1" source="89" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -73,11 +61,10 @@
                 <mxCell id="34" value="REVERSE POLARITY+ E-STOP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-350" y="-100" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=none;html=1;" parent="1" source="35" target="34" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="ALIMENTATION FOR E-STOP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="-520" y="-100" width="100" height="60" as="geometry"/>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="33" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-420" y="-70" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="74" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="36" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -136,31 +123,31 @@
                 </mxCell>
                 <mxCell id="49" value="" style="edgeStyle=none;html=1;" parent="1" source="27" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-700" y="-70" as="sourcePoint"/>
-                        <mxPoint x="-590" y="-70" as="targetPoint"/>
+                        <mxPoint x="-530" y="-70" as="sourcePoint"/>
+                        <mxPoint x="-420" y="-70" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="33" value="FUSE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-630" y="-100" width="40" height="60" as="geometry"/>
+                    <mxGeometry x="-460" y="-100" width="40" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="79" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="50" target="77" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="210" y="-280"/>
-                            <mxPoint x="290" y="-280"/>
+                            <mxPoint x="210" y="-350"/>
+                            <mxPoint x="290" y="-350"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="80" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="50" target="76" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="210" y="-280"/>
-                            <mxPoint x="150" y="-280"/>
+                            <mxPoint x="210" y="-350"/>
+                            <mxPoint x="150" y="-350"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="50" value="Alimentation à 48V" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="150" y="-260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="150" y="-330" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="51" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -175,16 +162,16 @@
                     <mxGeometry x="365" y="70" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="Power LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="-380" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="380" y="-450" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="edgeStyle=none;html=1;" parent="1" source="71" target="66" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="60" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="71" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="-60" as="sourcePoint"/>
+                        <mxPoint x="770" y="-70" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="61" value="Connection batterie droite" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=0;direction=east;" parent="1" vertex="1">
-                    <mxGeometry x="1120" y="-100" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="" style="edgeStyle=none;html=1;" parent="1" source="71" target="66" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="950" y="-100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="" style="edgeStyle=none;html=1;" parent="1" source="91" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -192,17 +179,9 @@
                 <mxCell id="64" value="REVERSE POLARITY+ E-STOP" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=0;direction=east;" parent="1" vertex="1">
                     <mxGeometry x="690" y="-100" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="edgeStyle=none;html=1;" parent="1" source="66" target="64" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="ALIMENTATION FOR E-STOP" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=0;direction=east;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="840" y="-100" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="75" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="67" target="50" edge="1">
+                <mxCell id="75" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="99" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="210" y="-70"/>
-                        </Array>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="67" value="Selection MOSFET" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;flipH=0;flipV=0;direction=east;" parent="1" vertex="1">
@@ -226,15 +205,15 @@
                 </mxCell>
                 <mxCell id="70" value="" style="edgeStyle=none;html=1;" parent="1" source="61" target="71" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="-170" as="sourcePoint"/>
-                        <mxPoint x="630" y="-170" as="targetPoint"/>
+                        <mxPoint x="350" y="-170" as="sourcePoint"/>
+                        <mxPoint x="460" y="-170" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="71" value="FUSE" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=0;direction=east;" parent="1" vertex="1">
-                    <mxGeometry x="1010" y="-100" width="40" height="60" as="geometry"/>
+                    <mxGeometry x="840" y="-100" width="40" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="État batterie droite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="1120" y="-20" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="950" y="-20" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="81" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="76" target="78" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -243,7 +222,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="FUSE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="-380" width="40" height="60" as="geometry"/>
+                    <mxGeometry x="130" y="-450" width="40" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="82" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="77" target="58" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -252,16 +231,16 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="FUSE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="270" y="-380" width="40" height="60" as="geometry"/>
+                    <mxGeometry x="270" y="-450" width="40" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="Power LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-60" y="-380" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-60" y="-450" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" value="Jambe gauche" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="-500" width="60" height="60" as="geometry"/>
+                    <mxGeometry x="120" y="-570" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="84" value="Jambe droite" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="-500" width="60" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="-570" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="88" value="TOUT CE QUI EST EN VERT EST CONNECTÉ AU ESP-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="-560" y="-380" width="120" height="60" as="geometry"/>
@@ -290,8 +269,17 @@
                 <mxCell id="95" value="Power LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="97" value="Rajouté un voltage sense pour savoir quoi faire la transition?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="-190" width="120" height="60" as="geometry"/>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="67" target="99">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="210" y="-70"/>
+                        </Array>
+                        <mxPoint x="240" y="-70" as="sourcePoint"/>
+                        <mxPoint x="210" y="-270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="Voltage Sense&lt;div&gt;for check before switch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="-220" width="80" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -751,16 +751,16 @@
       "BMS_V1_0"
     ],
     [
-      "6937e765-eead-4ea7-ba07-6590a34338ab",
-      "Alimentation"
-    ],
-    [
       "8f76bfd3-393f-4bde-9261-417b092e4508",
       "Controle"
     ],
     [
       "3082eddd-1090-4e43-a4f9-15043173df44",
       "Battery_Sub_Circuit_Gauche"
+    ],
+    [
+      "6937e765-eead-4ea7-ba07-6590a34338ab",
+      "Alimentation"
     ],
     [
       "fb2c5cc6-e994-4380-96ca-0af61efa0b8a",
