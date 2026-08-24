@@ -2,7 +2,7 @@
 
 Projet d’électronique et de communication pour l’exosquelette électrique.
 
-> **Objectif principal** : faire communiquer les différents modules de l’exosquelette via un bus CAN fiable, tout en distribuant l’alimentation et en assurant les fonctions de sécurité.
+> **Objectif principal** : faire communiquer les différents modules de l’exosquelette via un bus CAN fiable, tout en distribuant l’alimentation et en assurant les fonctions de sécurité. Le tout en prennant moins d'espace qu'avant.
 
 ## Sommaire
 
