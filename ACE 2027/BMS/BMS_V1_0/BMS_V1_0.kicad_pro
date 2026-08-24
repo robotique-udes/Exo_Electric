@@ -476,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Template.kicad_pro",
+    "filename": "BMS_V1_0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -715,8 +715,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Template.kicad_sch",
-        "name": "Template",
+        "filename": "BMS_V1_0.kicad_sch",
+        "name": "BMS_V1_0",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]
