@@ -730,7 +730,7 @@
         "uuid": "abeb93ed-b9ef-4503-99a7-3fce380ff294"
       }
     ],
-    "used_designators": "SW1-2,R103-107,D1,D106,C106,Q1-2",
+    "used_designators": "#PWR5-16,SW1-4,TP4-6,R1-10,R103-110,D1-4,D106-107,C1-5,C106,U3-4,F1-2,Q1-4",
     "variants": []
   },
   "sheets": [
@@ -752,7 +752,11 @@
     ],
     [
       "3082eddd-1090-4e43-a4f9-15043173df44",
-      "Battery_Sub_Circuit"
+      "Battery_Sub_Circuit_Gauche"
+    ],
+    [
+      "37ad5e6c-60b7-45e9-975c-2deedeb98e1a",
+      "Battery_Sub_Circuit_Droite"
     ]
   ],
   "text_variables": {},

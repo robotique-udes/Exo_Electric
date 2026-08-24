@@ -1341,7 +1341,7 @@
 	)
 	(sheet
 		(at 100.33 67.31)
-		(size 147.32 72.39)
+		(size 67.31 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1355,7 +1355,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3082eddd-1090-4e43-a4f9-15043173df44")
-		(property "Sheetname" "Battery_Sub_Circuit"
+		(property "Sheetname" "Battery_Sub_Circuit_Gauche"
 			(at 100.33 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1367,7 +1367,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery_Sub_Circuit.kicad_sch"
-			(at 100.33 140.2846 0)
+			(at 100.33 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1377,10 +1377,156 @@
 				(justify left top)
 			)
 		)
+		(pin "Battery out" input
+			(at 167.64 80.01 0)
+			(uuid "4f75ad8e-3c1f-46dc-a311-a9edbaf70e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery_N" input
+			(at 100.33 107.95 180)
+			(uuid "a633ceda-c551-412a-b5be-02f5febc9570")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery_P" input
+			(at 100.33 80.01 180)
+			(uuid "0ae2f5e8-e14a-4fae-ab4a-99b56aa90737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Current sense" input
+			(at 167.64 93.98 0)
+			(uuid "27ef7169-e931-4e7c-8285-144f6f7c02e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Voltage sense" input
+			(at 167.64 107.95 0)
+			(uuid "1b85e1a5-98aa-4fb3-a4a2-f3a8d1c3838e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "BMS_V1_0"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 142.24)
+		(size 67.31 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37ad5e6c-60b7-45e9-975c-2deedeb98e1a")
+		(property "Sheetname" "Battery_Sub_Circuit_Droite"
+			(at 100.33 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Sub_Circuit.kicad_sch"
+			(at 100.33 196.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Battery out" input
+			(at 167.64 154.94 0)
+			(uuid "d12bc7bd-c722-44dd-9c8f-cdbd8f89a819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery_N" input
+			(at 100.33 182.88 180)
+			(uuid "168bc241-73e8-416a-8ffb-bbbf55e1fe7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery_P" input
+			(at 100.33 154.94 180)
+			(uuid "ac1625ff-ee6f-4578-8936-397876f209ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Current sense" input
+			(at 167.64 168.91 0)
+			(uuid "c0df6086-fac2-48db-9783-3ff7406cbcfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Voltage sense" input
+			(at 167.64 182.88 0)
+			(uuid "523b75f8-609d-4367-bcd4-8ba29227a979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "BMS_V1_0"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab"
+					(page "6")
 				)
 			)
 		)
