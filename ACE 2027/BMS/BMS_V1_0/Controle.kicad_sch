@@ -6960,7 +6960,7 @@
 	)
 	(global_label "TWAI_CAN_TX"
 		(shape input)
-		(at 41.91 299.72 180)
+		(at 198.12 314.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6970,7 +6970,7 @@
 		)
 		(uuid "2e782557-bacf-40b4-97e8-e6e2baa07899")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.011 299.72 0)
+			(at 183.221 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,6 +6979,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Voltage_Sense_Gauche"
+		(shape bidirectional)
+		(at 187.96 275.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3926ae5e-4908-4779-86b4-513d7679dfa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4648 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Current_Sense_Droite"
+		(shape bidirectional)
+		(at 191.77 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a5cab9e-2d96-4ab6-ac03-0e9423a48a8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9445 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7032,7 +7080,7 @@
 	)
 	(global_label "EN"
 		(shape bidirectional)
-		(at 41.91 292.1 180)
+		(at 198.12 307.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7042,7 +7090,7 @@
 		)
 		(uuid "4973cd53-4302-4540-9cc8-37e8fff76b9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.334 292.1 0)
+			(at 191.544 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,6 +7147,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Current_Sense_Gauche"
+		(shape bidirectional)
+		(at 187.96 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d5fe55a-54f2-4bb1-8e3f-c3b31f9958b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4044 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7272,7 +7344,7 @@
 	)
 	(global_label "ERROR_LED"
 		(shape input)
-		(at 63.5 307.34 180)
+		(at 195.58 321.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7282,7 +7354,7 @@
 		)
 		(uuid "a552329e-20f4-4eca-845b-7fa7c0ed6e4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.8106 307.34 0)
+			(at 181.8906 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +7464,7 @@
 	)
 	(global_label "TWAI_CAN_RX"
 		(shape input)
-		(at 41.91 297.18 180)
+		(at 198.12 312.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7402,7 +7474,7 @@
 		)
 		(uuid "c2039247-f6ee-41ec-8a9b-5580f1e303a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7086 297.18 0)
+			(at 182.9186 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7416,7 +7488,7 @@
 	)
 	(global_label "CONNECTED LED"
 		(shape input)
-		(at 64.77 306.07 0)
+		(at 196.85 320.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7426,7 +7498,55 @@
 		)
 		(uuid "cb7cc241-1330-4d6f-a8e1-0a4815aaee70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.237 306.07 0)
+			(at 215.317 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Voltage_Sense_Selecteur"
+		(shape bidirectional)
+		(at 186.69 297.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3f42865-7418-4965-9ee2-d597340c4a21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1906 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Voltage_Sense_Droite"
+		(shape bidirectional)
+		(at 191.77 292.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7e588d6-6c4f-4d00-97c8-6c7b43eef36a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.0049 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7608,7 @@
 	)
 	(global_label "BOOT"
 		(shape bidirectional)
-		(at 71.12 302.26 0)
+		(at 203.2 316.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7498,7 +7618,7 @@
 		)
 		(uuid "e6a34b68-2885-45d0-a155-505054620818")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.1151 302.26 0)
+			(at 212.1951 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

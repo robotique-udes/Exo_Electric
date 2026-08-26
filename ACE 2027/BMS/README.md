@@ -175,6 +175,22 @@ https://www.digikey.ca/en/products/detail/littelfuse-inc/0225002-MXP/777781
 
 https://www.digikey.ca/en/products/filter/fuses/139?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIAzHAKw0UgC6hADgC5QgDKrATgJYA7AOYgAvoTBwAHAmggUkDDgLEyIAAyNxIAExgALPsQg2HAKoC%2BrAPKoAsrnTYArj1whCzjgDUPIALaCHPpSfv7oAB4cBpraALQ6xgq8ziokkOTUWtqJGSCoznhaQA
 
+## Choix mosfet
+La priorité est de minimisé le RDS on pour limité les pertes durant l'utilisation. Il faut aussi gardé 20V de marge sur l'utilisation. Pour finir il faut gardé un Gate charge raisonnable pour limité le temps de transition des mosfet:
+
+Premier choix 80V(31mO, 45nC)
+https://www.digikey.ca/en/products/detail/vishay-siliconix/SQS181ELNW-T1-GE3/20512189
+
+Deuxième choix 80V(17mO, 93nC)
+https://www.digikey.ca/en/products/detail/mcc-micro-commercial-components/MCAC017P08Y-TP/25965041
+
+Premier choix 100V(30mO, 68nC)
+https://www.digikey.ca/en/products/detail/vishay-siliconix/SQJ211ELP-T1-GE3/13540573
+
+Deuxième choix 100V(31mO, 73nC)
+https://www.digikey.ca/en/products/detail/goford-semiconductor/GT250P10T/19524544
+
+
 ---
 
 ## Points à confirmer avant validation finale
@@ -185,6 +201,8 @@ https://www.digikey.ca/en/products/filter/fuses/139?s=N4IgjCBcoGwJxVAYygMwIYBsDO
 - méthode de mesure de l'état de charge et précision attendue ;   comptage de columbs
 - protocole de handshake pour la sélection de batterie et comportement en cas de défaut ;  Utilisation de 3 lectures de tensions
 - validation thermique du convertisseur 5 V, des MOSFET et des fusibles ;  Probablement Négligeable
+
+Faire circuit led pour support batterie
 
 ## Résumé
 

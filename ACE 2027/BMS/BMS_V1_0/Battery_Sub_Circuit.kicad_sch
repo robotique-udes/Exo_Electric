@@ -2410,6 +2410,12 @@
 		(uuid "06b20172-b7a3-44b4-bd02-a6a4a6bf72c7")
 	)
 	(junction
+		(at 110.49 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13872733-29e4-4ce5-9f44-ee91254017cf")
+	)
+	(junction
 		(at 149.86 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2470,12 +2476,6 @@
 		(uuid "7e35cf7a-ae35-411f-a891-e70e791ecb23")
 	)
 	(junction
-		(at 110.49 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84e1cf73-9b8b-4830-8631-4fdb5c75e9a6")
-	)
-	(junction
 		(at 219.71 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2513,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 110.49 62.23)
+			(xy 29.21 62.23) (xy 110.49 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 	)
 	(hierarchical_label "Battery_N"
 		(shape input)
-		(at 52.07 62.23 180)
+		(at 29.21 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
