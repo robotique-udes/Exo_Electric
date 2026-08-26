@@ -169,6 +169,12 @@ Un exemple de référence compatible avec ce type de besoins est disponible ici 
 
 https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/axial-radial-thru-hole-fuses#Zi1zZXJpZXM9MzcyJm5mLW1heGltdW1fYWNfdm9sdGFnZV92X2RlY2ltYWw9NzAuLi4xMDAwJm5mLW5vbWluYWxfbWVsdGluZ19pX3NxdWFyZWRfdF9hX3NxdWFyZWRfcGVyX3NlY29uZF9kZWNpbWFsPTE2Li4uMzImY3E9KCU0MGxldmVsdGhyZWVjYXRlZ29yeSUzRCUzRCUyMkF4aWFsJTIwUmFkaWFsJTIwVGhydSUyMEhvbGUlMjBGdXNlcyUyMiklMjAoJTQwbGV2ZWxudW1iZXIlM0QlM0Q3KSUyMCglNDBsZXZlbHR3b2NhdGVnb3J5JTNEJTNEJTIyRnVzZXMlMjIpJTIwKCU0MGxldmVsb25lY2F0ZWdvcnklM0QlM0QlMjJGdXNlcyUyMCUyNiUyME92ZXJjdXJyZW50JTIwUHJvdGVjdGlvbiUyMik=
 
+Mini fuse verre
+https://www.digikey.ca/en/products/detail/littelfuse-inc/0225002-MXP/777781
+
+
+https://www.digikey.ca/en/products/filter/fuses/139?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIAzHAKw0UgC6hADgC5QgDKrATgJYA7AOYgAvoTBwAHAmggUkDDgLEyIAAyNxIAExgALPsQg2HAKoC%2BrAPKoAsrnTYArj1whCzjgDUPIALaCHPpSfv7oAB4cBpraALQ6xgq8ziokkOTUWtqJGSCoznhaQA
+
 ---
 
 ## Points à confirmer avant validation finale
@@ -176,10 +182,9 @@ https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/axial-rad
 - référence exacte des batteries, tension minimale et tension maximale ;
 - type de connecteur batterie (**XT ?**) et courant admissible réel ;
 - courant de démarrage et courant continu de chaque jambe ;
-- méthode de mesure de l'état de charge et précision attendue ;
-- protocole de handshake pour la sélection de batterie et comportement en cas de défaut ;
-- validation thermique du convertisseur 5 V, des MOSFET et des fusibles ;
-- courant admissible du câble Ethernet utilisé pour le 5 V sur la longueur finale.
+- méthode de mesure de l'état de charge et précision attendue ;   comptage de columbs
+- protocole de handshake pour la sélection de batterie et comportement en cas de défaut ;  Utilisation de 3 lectures de tensions
+- validation thermique du convertisseur 5 V, des MOSFET et des fusibles ;  Probablement Négligeable
 
 ## Résumé
 
