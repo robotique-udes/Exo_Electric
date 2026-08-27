@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="DGx6zRjV_PeGdYII5GF7" name="Page-1">
-        <mxGraphModel dx="1990" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1563" dy="1525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -99,7 +99,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="Ideal diode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="38" value="Diode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="90" y="-20" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="39" target="40" edge="1">
@@ -109,7 +109,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" value="Ideal diode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="39" value="Diode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="-20" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="" style="edgeStyle=none;html=1;" parent="1" source="40" target="51" edge="1">
@@ -269,7 +269,7 @@
                 <mxCell id="95" value="Power LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="67" target="99">
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="67" target="99" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="210" y="-70"/>
@@ -278,7 +278,7 @@
                         <mxPoint x="210" y="-270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="99" value="Voltage Sense&lt;div&gt;for check before switch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                <mxCell id="99" value="Voltage Sense&lt;div&gt;for check before switch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="170" y="-220" width="80" height="60" as="geometry"/>
                 </mxCell>
             </root>

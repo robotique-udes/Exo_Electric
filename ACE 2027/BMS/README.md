@@ -31,7 +31,7 @@ Le BMS doit notamment :
 - permettre le basculement automatique entre les batteries ;
 - inclure des indicateurs visuels d'état autour des batteries.
 
-## Conception
+# Conception
 
 - Seuls les ESP32 du **MoBo** et du **BMS** disposent d'une connectivité sans fil. Les deux sont inclus dans le budget de puissance, mais seul le module sans fil du MoBo sera utilisé en fonctionnement normal.
 - La consommation **MISC** correspond à une estimation des pertes du PCB, des pertes de conversion, des composants annexes et des LED.
@@ -44,7 +44,7 @@ Les estimations ci-dessous supposent un rail **3,3 V** et une marge de conversio
 | Charge | Hypothèse | Puissance estimée |
 | --- | --- | ---: |
 | MoBo | `(300 mA + 100 mA MISC) × 3,3 V` | **1,32 W** |
-| BIMU | `(35 mA + 100 mA MISC) × 3,3 V` | **0,45 W** |
+| BIMU | `(35 mA + 100 mA MISC) × 3,3 V x 5` | **2,25 W** |
 | BMS | `(300 mA + 100 mA MISC) × 3,3 V` | **1,32 W** + `LED_BMS` |
 
 Un rendement de **80 %** est retenu pour le convertisseur principal vers **5 V**. Cette hypothèse est volontairement prudente, car la tension de batterie peut varier significativement et le convertisseur doit couvrir une large plage d'entrée.
@@ -52,14 +52,14 @@ Un rendement de **80 %** est retenu pour le convertisseur principal vers **5 V**
 ### Estimation des besoins du circuit 5 V
 
 ```text
-P nécessaire = (1,32 W + 0,45 W + 1,32 W) / 0,80
-            = 3,87 W
+P nécessaire = (1,32 W + 2,25 W + 1,32 W) / 0,80
+            = 6,12 W
 
-I sous 5 V = 3,87 W / 5 V
-           = 0,774 A
+I sous 5 V = 6,12 W / 5 V
+           = 1,224 A
 ```
 
-Un convertisseur **5 V / 1 A** couvrirait donc l'estimation actuelle. Cependant, le câble Ethernet envisagé, avec des conducteurs **23 AWG**, est généralement estimé à environ **0,7 A par conducteur**. Avec trois conducteurs 5 V et trois conducteurs GND, la capacité théorique atteint :
+Un convertisseur **5 V / 1.5 A** couvrirait donc l'estimation actuelle. Cependant, le câble Ethernet envisagé, avec des conducteurs **23 AWG**, est généralement estimé à environ **0,7 A par conducteur**. Avec trois conducteurs 5 V et trois conducteurs GND, la capacité théorique atteint :
 
 ```text
 0,7 A × 3 = 2,1 A

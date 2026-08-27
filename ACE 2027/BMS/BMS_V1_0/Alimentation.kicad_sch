@@ -3247,6 +3247,12 @@
 		(uuid "0f953274-22ee-42c5-a538-efd9ea5a1353")
 	)
 	(junction
+		(at 139.7 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1864756d-8042-4f9b-8f7b-7b4a5174e2d9")
+	)
+	(junction
 		(at 83.82 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3397,6 +3403,16 @@
 			(type default)
 		)
 		(uuid "0b0cb057-8873-4dd7-acc6-24b8f54fa5ba")
+	)
+	(wire
+		(pts
+			(xy 139.7 209.55) (xy 139.7 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6a3936-4134-4912-bcb1-9ed6bb1cb0ac")
 	)
 	(wire
 		(pts
@@ -4378,6 +4394,30 @@
 		)
 		(uuid "e4c43dd6-8e42-451b-b114-35c97bc0c5ed")
 	)
+	(global_label "Circuit_selection_Gauche"
+		(shape input)
+		(at 96.52 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13fa701d-9afe-40dc-b534-700e445c2dfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.1513 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Sortie_Selecteur"
 		(shape bidirectional)
 		(at 109.22 240.03 0)
@@ -4615,6 +4655,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Circuit_selection_Droite"
+		(shape input)
+		(at 139.7 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec31a053-7247-41f6-8c66-afeff24994b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3386 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
