@@ -190,7 +190,12 @@ https://www.digikey.ca/en/products/detail/vishay-siliconix/SQJ211ELP-T1-GE3/1354
 Deuxième choix 100V(31mO, 73nC)
 https://www.digikey.ca/en/products/detail/goford-semiconductor/GT250P10T/19524544
 
+## calcul led 
 
+Consommation maximum de 11W/m pour les bandes LEDS https://www.amazon.ca/BTF-LIGHTING-Similar-Individually-Addressable-Lighting/dp/B0F62XVXNS/ref=ast_sto_dp_puis?th=1
+Donc on parle de 1.1W/m ou 0.22A
+
+Mais une consommation normal serait plus 30% à 40% voir moins(le but est de les voir, mais sans plus), donc on parle de 0.44W/m ou 0.088A. 
 ---
 
 ## Points à confirmer avant validation finale
