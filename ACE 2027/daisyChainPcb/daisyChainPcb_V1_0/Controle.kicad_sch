@@ -1509,7 +1509,7 @@
 	)
 	(rectangle
 		(start 50.165 24.765)
-		(end 79.375 50.8)
+		(end 83.185 50.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -1903,6 +1903,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 33.02) (xy 57.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b19d896-d292-4170-a22e-8b1b20ea4ee5")
+	)
+	(wire
+		(pts
 			(xy 57.15 96.52) (xy 62.23 96.52)
 		)
 		(stroke
@@ -1933,6 +1943,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 33.02) (xy 31.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9efd81-3231-43c2-834e-7bc4da875570")
+	)
+	(wire
+		(pts
 			(xy 76.2 96.52) (xy 76.2 101.6)
 		)
 		(stroke
@@ -1950,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "cc2395f9-e6a7-4d5c-a345-cbaa9b314091")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0109446-1bb4-4f98-8ffc-ae953c2949cf")
 	)
 	(wire
 		(pts
@@ -2021,16 +2051,6 @@
 		)
 		(uuid "07f4f49c-2c71-407b-8802-21f60d882e8f")
 	)
-	(label "48V"
-		(at 55.88 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12efe5dd-0cdb-41b8-9776-485be00c0658")
-	)
 	(label "TX"
 		(at 59.69 77.47 270)
 		(effects
@@ -2061,16 +2081,6 @@
 		)
 		(uuid "4769cf0d-6724-448f-9e71-25b9a70638bc")
 	)
-	(label "48V"
-		(at 67.31 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e9a090d-15fe-45c9-b183-d2fd5de55bbd")
-	)
 	(label "CAN_P"
 		(at 21.59 77.47 270)
 		(effects
@@ -2090,16 +2100,6 @@
 			(justify left bottom)
 		)
 		(uuid "618b813a-dc66-4f12-93ce-c0da3b0119b3")
-	)
-	(label "48V"
-		(at 31.75 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a17abcd-bce0-4d61-b92e-1914f6774e4d")
 	)
 	(label "RX"
 		(at 73.66 77.47 270)
@@ -2255,7 +2255,7 @@
 	)
 	(global_label "power_GND"
 		(shape input)
-		(at 69.85 33.02 270)
+		(at 76.2 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2265,7 +2265,7 @@
 		)
 		(uuid "944c63f8-f3f4-498b-b491-e67947c93b1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 46.3466 90)
+			(at 76.2 46.3466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2327,7 @@
 	)
 	(global_label "power_GND"
 		(shape input)
-		(at 58.42 33.02 270)
+		(at 59.69 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2337,7 +2337,7 @@
 		)
 		(uuid "e7fb71fa-6fba-44e2-a3e8-8b80e9e62924")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 46.3466 90)
+			(at 59.69 46.3466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,6 +2660,84 @@
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
 					(reference "TP204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 53.34 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b88783-7913-4cf2-a040-5c9d6366a937")
+		(property "Reference" "#PWR0205"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 53.34 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8933a54d-39a2-442f-9aa9-2baa37d79ed8")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -3221,6 +3299,84 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
+		(at 69.85 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c4d454-dd89-4075-993b-e5a359e2ec06")
+		(property "Reference" "#PWR0206"
+			(at 69.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 69.85 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "213e2e80-9c75-4ff3-a0ba-56acee5fe4be")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
 		(at 95.25 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -3708,6 +3864,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 27.94 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44f84f5-acf8-4b81-8d52-3d565722b641")
+		(property "Reference" "#PWR0204"
+			(at 27.94 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 27.94 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "592d2179-b5e8-4293-95b8-4a96ddcf3255")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:RJ45")
 		(at 273.05 50.8 180)
 		(unit 1)
@@ -4152,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 27.94 270)
+		(at 59.69 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4163,7 +4397,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3fefed9-589c-4778-86c1-ff91b9664fdb")
 		(property "Reference" "J202"
-			(at 59.69 27.3049 90)
+			(at 60.96 27.3049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4174,7 +4408,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 59.69 29.8449 90)
+			(at 60.96 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4185,7 +4419,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +4430,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/745/FIT0586_Web.pdf"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4441,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4468,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 69.85 27.94 270)
+		(at 76.2 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4245,7 +4479,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb08b52e-371b-49d6-96f4-b33f7642532d")
 		(property "Reference" "J203"
-			(at 71.12 27.3049 90)
+			(at 77.47 27.3049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4256,7 +4490,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 71.12 29.8449 90)
+			(at 77.47 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4278,7 +4512,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/745/FIT0586_Web.pdf"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4523,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
