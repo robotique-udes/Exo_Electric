@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "daisyChainPcb_V1_0.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
