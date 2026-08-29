@@ -3924,7 +3924,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e453db01-29d3-484e-9ad2-63fccf7d03b5")
-		(at 160 63 90)
+		(at 160 65 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C102"
@@ -4749,7 +4749,7 @@
 		(start 124.5 44)
 		(end 124.5 46.80602)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4761,7 +4761,7 @@
 		(mid 125.964466 40.464466)
 		(end 129.5 39)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4772,7 +4772,7 @@
 		(start 124.5 128.19398)
 		(end 124.5 131)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4784,7 +4784,7 @@
 		(mid 125.755085 124.881034)
 		(end 128.890244 123.231299)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4796,7 +4796,7 @@
 		(mid 125.755084 50.118966)
 		(end 124.5 46.80602)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4808,7 +4808,7 @@
 		(mid 160.5 87.5)
 		(end 128.890244 123.231299)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4820,7 +4820,7 @@
 		(mid 125.964466 134.535534)
 		(end 124.5 131)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4831,7 +4831,7 @@
 		(start 129.5 136)
 		(end 157 136)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4842,7 +4842,7 @@
 		(center 136.146857 130.966662)
 		(end 138.196857 130.966662)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4854,7 +4854,7 @@
 		(start 151 39)
 		(end 129.5 39)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4865,7 +4865,7 @@
 		(start 151 39)
 		(end 151 46)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4877,7 +4877,7 @@
 		(mid 152.464466 49.535534)
 		(end 151 46)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4888,7 +4888,7 @@
 		(start 156 51)
 		(end 176 51)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4899,7 +4899,7 @@
 		(center 156.319805 55.680195)
 		(end 158.369805 55.680195)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4911,7 +4911,7 @@
 		(start 157 128)
 		(end 157 136)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4923,7 +4923,7 @@
 		(mid 158.464466 124.464466)
 		(end 162 123)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4934,7 +4934,7 @@
 		(center 167.966662 99.146857)
 		(end 170.016662 99.146857)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
@@ -4946,7 +4946,7 @@
 		(start 172 123)
 		(end 162 123)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4958,7 +4958,7 @@
 		(mid 179.535534 52.464466)
 		(end 181 56)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4970,7 +4970,7 @@
 		(mid 178.127017 104.837722)
 		(end 181 103.101021)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4982,7 +4982,7 @@
 		(mid 175.535534 121.535534)
 		(end 172 123)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -4993,7 +4993,7 @@
 		(start 177 118)
 		(end 177 108)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
@@ -5004,7 +5004,7 @@
 		(start 181 103.101021)
 		(end 181 56)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(locked yes)
