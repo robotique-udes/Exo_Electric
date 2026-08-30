@@ -27,7 +27,7 @@ main
     - Contient un README.md décrivant le fonctionnement global du système électrique et présentant le schéma-bloc
     - Contient le schéma-bloc en image et dans son format original décrivant l'interaction entre les sous-systèmes électriques
     - Un dossier est créé par PCB
-        - Contient un README.md qui explique le fonctionnement du PCB et présente le schéma-bloc
+        - Contient un README.md qui explique le fonctionnement du PCB, contient les calculs et hypothèse fait pour le pcb et présente le schéma-bloc. Le README.md doit dire où se trouve le contour du pcb s'il a été fait sur ONSHAPE
         - Contient le schéma-bloc en image et dans son format original décrivant l'interaction entre les modules du PCB
             - Un dossier est fait pour chaque version du PCB.
                 - La version 1_0 n'a pas besoin de README, mais les versions subséquentes devront en avoir un qui décrit les changements par rapport à la version antérieure.
@@ -36,13 +36,16 @@ main
 # Branches
 Une branche est créée pour chaque PCB. <br>
 Cette branche doit contenir le nom du PCB ainsi que sa version et le déroulement de la vie de cette branche se déroule ainsi:
-1. Création du schéma électrique
-2. Création d'une pull request vers le main afin de faire vérifier le schéma
+1. Si le pcb est particuliairement complexe, écrire le readme et le shéma bloc qui défini ce que le PCB fait et comment il va le faire
+2. Création d'une pull request vers le main afin de faire validé le fonctionnement du PCB
     - Faire les correctifs et demander à nouveau la vérification
-3. Création du PCB
-4. Création d'une pull request vers le main afin de faire vérifier le PCB
+3. Création du schéma électrique
+4. Création d'une pull request vers le main afin de faire vérifier le schéma
     - Faire les correctifs et demander à nouveau la vérification
-5. Suppression de la branche une fois le PCB commandé
+5. Création du PCB
+6. Création d'une pull request vers le main afin de faire vérifier le PCB
+    - Faire les correctifs et demander à nouveau la vérification
+7. Suppression de la branche une fois le PCB commandé
 
 ## Convention de versions:
 - V1.0  Premier prototype
