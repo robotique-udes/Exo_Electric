@@ -4820,7 +4820,7 @@
 		)
 		(uuid "21496f29-5828-42b4-b961-3349de3e1b30")
 	)
-	(text "#define IMU_PIN_SCLk        GPIO_NUM_5    // SPI CLK\n#define IMU_PIN_MISO        GPIO_NUM_6    // SPI MISO\n#define IMU_PIN_MOSI        GPIO_NUM_7    // SPI MOSI\n#define IMU_PIN_CS          GPIO_NUM_10   // Chip Select\n#define IMU_PIN_INT1        GPIO_NUM_4    // FIFO/Data Ready"
+	(text "#define IMU_PIN_SCLk        GPIO_NUM_5    // SPI CLK\n#define IMU_PIN_MISO        GPIO_NUM_6    // SPI MISO\n#define IMU_PIN_MOSI        GPIO_NUM_7    // SPI MOSI\n#define IMU_PIN_CS          GPIO_NUM_10   // Chip Select\n#define IMU_PIN_INT1        GPIO_NUM_4    // FIFO/Data Ready\n#define IMU_PIN_INT2        GPIO_NUM_3    // ERROR"
 		(exclude_from_sim no)
 		(at 26.416 165.1 0)
 		(effects
@@ -7255,7 +7255,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 133.35 207.01 0)
+		(at 133.35 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7265,7 +7265,7 @@
 		)
 		(uuid "bb49792f-486f-4ce4-aab2-c64dc0585875")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.0665 207.01 0)
+			(at 145.0665 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7327,7 +7327,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 133.35 209.55 0)
+		(at 133.35 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7337,7 +7337,7 @@
 		)
 		(uuid "c9859cad-bcae-4bae-ade8-b2196e24f636")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.0665 209.55 0)
+			(at 145.0665 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
