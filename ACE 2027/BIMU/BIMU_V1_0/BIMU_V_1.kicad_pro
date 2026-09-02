@@ -540,7 +540,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BIMU_V_1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
