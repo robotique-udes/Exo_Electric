@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -150,12 +156,12 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -530,7 +544,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "daisyChainPcb_V1_0.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -538,7 +552,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -673,7 +687,7 @@
         "uuid": "c963cec3-4702-49ad-9d19-390ec91e9467"
       }
     ],
-    "used_designators": "#FLG1-5,TP1-11,R1-2,C1-4,U1-2,#PWR1-22,J1-8",
+    "used_designators": "H401-403,#FLG1-5,#FLG101-103,#FLG201-203,#FLG301,TP1-11,TP201-211,TP301-311,R1-2,R201-202,R301-302,C1-4,C101-102,C201-202,U1-2,U101,U201,#PWR1-22,#PWR101-102,#PWR201-206,#PWR301-303,J1-8,J201-207,J301-307",
     "variants": []
   },
   "sheets": [
@@ -682,16 +696,16 @@
       "Root"
     ],
     [
-      "ceb003bf-36c7-4e80-ab82-11fec158be26",
-      "Alimentation"
-    ],
-    [
       "cd13e174-6d34-4da6-82aa-10931bd92064",
       "Controle"
     ],
     [
       "06d9d6d4-9855-4a99-a323-e1dbe94349d2",
       "Capteur"
+    ],
+    [
+      "ceb003bf-36c7-4e80-ab82-11fec158be26",
+      "Alimentation"
     ]
   ],
   "text_variables": {},

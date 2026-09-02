@@ -383,6 +383,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -934,6 +1033,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bee625a-84b2-435c-be8c-897d085c24c9")
+		(property "Reference" "H401"
+			(at 147.32 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 144.78 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
+					(reference "H401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 27.94 27.94 0)
 		(unit 1)
@@ -945,7 +1120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255df84b-39e1-4c9b-aa02-9d3047413edd")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0102"
 			(at 27.94 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -1005,7 +1180,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "#FLG01")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -1023,7 +1198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fdea0b9-7968-4baa-8875-ee96e772d1d1")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG0101"
 			(at 25.4 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -1083,7 +1258,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "#FLG04")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -1101,7 +1276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bee127d-6369-4f97-83c6-f11a2584540e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0101"
 			(at 19.05 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1161,7 +1336,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "#PWR09")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1179,7 +1354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1cee04-deea-4856-b2a5-c9d9e34a7a7b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0102"
 			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1239,7 +1414,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "#PWR017")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1257,7 +1432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ef6076-9700-499b-b4a9-aae8ccdd87ad")
-		(property "Reference" "C3"
+		(property "Reference" "C101"
 			(at 49.53 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,7 +1507,83 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "C3")
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87242086-ff63-4665-a50f-7786e89f77f7")
+		(property "Reference" "H403"
+			(at 147.32 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 144.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
+					(reference "H403")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3921224-c1d9-4166-a70f-f18616a80ad4")
-		(property "Reference" "U2"
+		(property "Reference" "U101"
 			(at 90.17 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1672,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "U2")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -1439,7 +1690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c259272d-b123-4450-952b-c449f927d297")
-		(property "Reference" "C4"
+		(property "Reference" "C102"
 			(at 49.53 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1514,7 +1765,83 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "C4")
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0703ef0-e1e4-4e57-a91c-e631016bc1ba")
+		(property "Reference" "H402"
+			(at 147.32 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
+					(reference "H402")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f39e5fa8-e378-41e5-b86b-6c36937814f5")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG0103"
 			(at 39.37 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -1592,7 +1919,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/ceb003bf-36c7-4e80-ab82-11fec158be26"
-					(reference "#FLG05")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)

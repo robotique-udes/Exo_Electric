@@ -1509,7 +1509,7 @@
 	)
 	(rectangle
 		(start 50.165 24.765)
-		(end 79.375 50.8)
+		(end 83.185 50.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -1903,6 +1903,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 33.02) (xy 57.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b19d896-d292-4170-a22e-8b1b20ea4ee5")
+	)
+	(wire
+		(pts
 			(xy 57.15 96.52) (xy 62.23 96.52)
 		)
 		(stroke
@@ -1933,6 +1943,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 33.02) (xy 31.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9efd81-3231-43c2-834e-7bc4da875570")
+	)
+	(wire
+		(pts
 			(xy 76.2 96.52) (xy 76.2 101.6)
 		)
 		(stroke
@@ -1950,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "cc2395f9-e6a7-4d5c-a345-cbaa9b314091")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0109446-1bb4-4f98-8ffc-ae953c2949cf")
 	)
 	(wire
 		(pts
@@ -2021,16 +2051,6 @@
 		)
 		(uuid "07f4f49c-2c71-407b-8802-21f60d882e8f")
 	)
-	(label "48V"
-		(at 55.88 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12efe5dd-0cdb-41b8-9776-485be00c0658")
-	)
 	(label "TX"
 		(at 59.69 77.47 270)
 		(effects
@@ -2061,16 +2081,6 @@
 		)
 		(uuid "4769cf0d-6724-448f-9e71-25b9a70638bc")
 	)
-	(label "48V"
-		(at 67.31 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e9a090d-15fe-45c9-b183-d2fd5de55bbd")
-	)
 	(label "CAN_P"
 		(at 21.59 77.47 270)
 		(effects
@@ -2090,16 +2100,6 @@
 			(justify left bottom)
 		)
 		(uuid "618b813a-dc66-4f12-93ce-c0da3b0119b3")
-	)
-	(label "48V"
-		(at 31.75 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a17abcd-bce0-4d61-b92e-1914f6774e4d")
 	)
 	(label "RX"
 		(at 73.66 77.47 270)
@@ -2255,7 +2255,7 @@
 	)
 	(global_label "power_GND"
 		(shape input)
-		(at 69.85 33.02 270)
+		(at 76.2 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2265,7 +2265,7 @@
 		)
 		(uuid "944c63f8-f3f4-498b-b491-e67947c93b1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 46.3466 90)
+			(at 76.2 46.3466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2327,7 @@
 	)
 	(global_label "power_GND"
 		(shape input)
-		(at 58.42 33.02 270)
+		(at 59.69 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2337,7 +2337,7 @@
 		)
 		(uuid "e7fb71fa-6fba-44e2-a3e8-8b80e9e62924")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 46.3466 90)
+			(at 59.69 46.3466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +2410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc0cc70-84e5-41ee-b552-d5cae31def1f")
-		(property "Reference" "J1"
+		(property "Reference" "J206"
 			(at 198.12 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2501,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J1")
+					(reference "J206")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10037fec-2699-49e1-a5d9-d77fe1441238")
-		(property "Reference" "TP10"
+		(property "Reference" "TP210"
 			(at 116.84 70.3579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +2580,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP10")
+					(reference "TP210")
 					(unit 1)
 				)
 			)
@@ -2598,7 +2598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1249c165-ac8d-4754-a8a8-e151328865fe")
-		(property "Reference" "TP4"
+		(property "Reference" "TP204"
 			(at 38.1 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2659,85 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP4")
+					(reference "TP204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 53.34 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b88783-7913-4cf2-a040-5c9d6366a937")
+		(property "Reference" "#PWR0205"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 53.34 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8933a54d-39a2-442f-9aa9-2baa37d79ed8")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -2677,7 +2755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21f1a92a-49c3-44b7-9068-c6c5f1c08621")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0201"
 			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2737,7 +2815,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR03")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -2755,7 +2833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf335af-1271-46bb-a3a2-fe774ac5a046")
-		(property "Reference" "TP8"
+		(property "Reference" "TP208"
 			(at 78.74 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +2894,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP8")
+					(reference "TP208")
 					(unit 1)
 				)
 			)
@@ -2833,7 +2911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d862c8b-db18-452e-b062-b99ca8cc1904")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0203"
 			(at 227.33 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2893,7 +2971,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR01")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -2911,7 +2989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f1035d-fa58-4b08-b9d3-a5447e266459")
-		(property "Reference" "TP2"
+		(property "Reference" "TP203"
 			(at 38.1 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +3050,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP2")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -2990,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b761a5-8a54-49a9-ae46-124e4b3de0ea")
-		(property "Reference" "J7"
+		(property "Reference" "J205"
 			(at 140.97 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3055,7 +3133,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J7")
+					(reference "J205")
 					(unit 1)
 				)
 			)
@@ -3073,7 +3151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73623a82-4a03-4b1b-8a81-46d18325f968")
-		(property "Reference" "TP11"
+		(property "Reference" "TP211"
 			(at 118.11 95.7579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,7 +3212,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP11")
+					(reference "TP211")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7706b389-b861-47f4-82b2-8e385b8ff842")
-		(property "Reference" "TP5"
+		(property "Reference" "TP205"
 			(at 62.23 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +3291,85 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP5")
+					(reference "TP205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 69.85 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c4d454-dd89-4075-993b-e5a359e2ec06")
+		(property "Reference" "#PWR0206"
+			(at 69.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 69.85 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "213e2e80-9c75-4ff3-a0ba-56acee5fe4be")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cef7a7f-ed12-4af6-b483-98cff2e4db03")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0202"
 			(at 95.25 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3291,7 +3447,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#PWR013")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -3308,7 +3464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80cad26e-905f-457f-98e3-caa0caf0f10d")
-		(property "Reference" "R2"
+		(property "Reference" "R202"
 			(at 243.84 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3383,7 +3539,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "R2")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ba268f-0713-498c-8235-8c57d4e1565c")
-		(property "Reference" "J3"
+		(property "Reference" "J204"
 			(at 128.27 31.1149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3465,7 +3621,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J3")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "939766ae-84b5-4230-a436-3b788178c036")
-		(property "Reference" "TP1"
+		(property "Reference" "TP201"
 			(at 24.13 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3700,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP1")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a331bf4f-d64a-4cbb-a391-edd373cebe09")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0201"
 			(at 95.25 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3778,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "#FLG02")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a58504-6181-42e2-b0ca-35ad2429496d")
-		(property "Reference" "TP9"
+		(property "Reference" "TP209"
 			(at 102.87 70.3579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,7 +3857,85 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP9")
+					(reference "TP209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 27.94 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44f84f5-acf8-4b81-8d52-3d565722b641")
+		(property "Reference" "#PWR0204"
+			(at 27.94 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 27.94 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 27.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "592d2179-b5e8-4293-95b8-4a96ddcf3255")
+		)
+		(instances
+			(project "daisyChainPcb_V1_0"
+				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78408ca-d930-43cb-9c7c-2144db00b0cc")
-		(property "Reference" "J2"
+		(property "Reference" "J207"
 			(at 273.05 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +4044,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J2")
+					(reference "J207")
 					(unit 1)
 				)
 			)
@@ -3828,7 +4062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc0a1f64-c3ce-4abf-8a58-8f867c056a39")
-		(property "Reference" "J8"
+		(property "Reference" "J201"
 			(at 35.56 27.3049 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +4126,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J8")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -3911,7 +4145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3220c0c-2c79-4fe8-805d-276237f0ba4d")
-		(property "Reference" "R1"
+		(property "Reference" "R201"
 			(at 232.41 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3986,7 +4220,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "R1")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7eb2ccb-5243-44c6-afad-c024186f08ec")
-		(property "Reference" "TP3"
+		(property "Reference" "TP202"
 			(at 24.13 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +4299,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP3")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -4083,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24b879e-b52d-4de0-acac-655c2af50d6e")
-		(property "Reference" "TP6"
+		(property "Reference" "TP207"
 			(at 76.2 72.8979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +4378,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP6")
+					(reference "TP207")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 27.94 270)
+		(at 59.69 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4162,8 +4396,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fefed9-589c-4778-86c1-ff91b9664fdb")
-		(property "Reference" "J6"
-			(at 59.69 27.3049 90)
+		(property "Reference" "J202"
+			(at 60.96 27.3049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4174,7 +4408,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 59.69 29.8449 90)
+			(at 60.96 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4185,7 +4419,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +4430,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/745/FIT0586_Web.pdf"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4441,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 27.94 0)
+			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +4460,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J6")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -4234,7 +4468,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 69.85 27.94 270)
+		(at 76.2 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4244,8 +4478,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb08b52e-371b-49d6-96f4-b33f7642532d")
-		(property "Reference" "J5"
-			(at 71.12 27.3049 90)
+		(property "Reference" "J203"
+			(at 77.47 27.3049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4256,7 +4490,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 71.12 29.8449 90)
+			(at 77.47 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4278,7 +4512,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/745/FIT0586_Web.pdf"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4523,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 69.85 27.94 0)
+			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4542,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "J5")
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea0c3a9-4b6a-40bb-b093-39ecda2a4386")
-		(property "Reference" "TP7"
+		(property "Reference" "TP206"
 			(at 64.77 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4621,7 @@
 		(instances
 			(project "daisyChainPcb_V1_0"
 				(path "/c963cec3-4702-49ad-9d19-390ec91e9467/cd13e174-6d34-4da6-82aa-10931bd92064"
-					(reference "TP7")
+					(reference "TP206")
 					(unit 1)
 				)
 			)
