@@ -1,0 +1,3 @@
+- Faire un schéma bloc du fonctionnement du BMS
+- Mettre des sorties de monitoring de la batterie
+- 
