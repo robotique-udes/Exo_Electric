@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BIMU_V_1")(type "KiCad")(uri "${KIPRJMOD}/BIMU_Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "BIMU_Custom")(type "KiCad")(uri "${KIPRJMOD}/BIMU_Custom.kicad_sym")(options "")(descr ""))
+)

@@ -6,3 +6,5 @@
 | **BATTERIE CUSTOM** | En cours | ACE2028 | Faire notre propre batterie avec potentiellement un BMS custom |
 | **LIGHT SHOW** | En attente | ACE2027 | Faire un module LED CAN  |
 | **E** | En attente | ACE20?? | Faire  |
+
+Mobo

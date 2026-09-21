@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -116,13 +116,13 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -210,8 +210,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.5
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -463,7 +462,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -481,7 +479,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -498,6 +496,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -537,14 +536,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "BIMU_V_1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -598,37 +594,37 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DK_Datasheet_Link",
-          "name": "DK_Datasheet_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DK_Detail_Page",
-          "name": "DK_Detail_Page",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -637,7 +633,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Digi-Key_PN",
           "name": "Digi-Key_PN",
           "show": true
@@ -680,8 +676,8 @@
         },
         {
           "group_by": false,
-          "label": "Category",
-          "name": "Category",
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
           "show": false
         },
         {
@@ -692,8 +688,20 @@
         },
         {
           "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
           "show": false
         }
       ],
@@ -719,38 +727,30 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
         "filename": "BIMU_V_1.kicad_sch",
         "name": "BIMU_V_1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "abeb93ed-b9ef-4503-99a7-3fce380ff294"
       }
     ],
     "used_designators": "",
@@ -759,11 +759,7 @@
   "sheets": [
     [
       "abeb93ed-b9ef-4503-99a7-3fce380ff294",
-      "Root"
-    ],
-    [
-      "6937e765-eead-4ea7-ba07-6590a34338ab",
-      "Alimentation"
+      "BIMU_V_1"
     ],
     [
       "8f76bfd3-393f-4bde-9261-417b092e4508",
@@ -772,6 +768,10 @@
     [
       "fb2c5cc6-e994-4380-96ca-0af61efa0b8a",
       "Capteur"
+    ],
+    [
+      "6937e765-eead-4ea7-ba07-6590a34338ab",
+      "Alimentation"
     ]
   ],
   "text_variables": {},

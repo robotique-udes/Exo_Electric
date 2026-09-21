@@ -1,0 +1,32 @@
+Salut, j’essaie de diagnostiquer un problème USB sur une carte custom avec un ESP32-C3FH4.
+
+Le problème : le PC ne détecte absolument pas l’ESP32 en USB. `lsusb` ne change pas lorsque je branche la carte et `dmesg --follow` ne montre aucun événement USB.
+
+Ce qui a été vérifié :
+
+* Alimentation 5 V : OK, 5 V mesuré.
+* Alimentation 3,3 V : OK, 3,3 V mesuré.
+* USB D− → GPIO18.
+* USB D+ → GPIO19.
+* D+ et D− mesurent environ 18 mV sous tension.
+* EN/CHIP_EN reste autour de 0,6 V.
+* Le pull-up de EN est de 5 kΩ vers 3,3 V.
+* Le condensateur de 1 nF sur EN a été retiré.
+* Avec le pull-up EN complètement déconnecté, EN descend à environ 35 mV.
+* Hors tension, EN → GND mesure environ 10 MΩ avec le pull-up déconnecté.
+* EN a été forcé à 3,3 V : aucun changement, toujours aucun USB.
+* GPIO9/BOOT a été mis à GND au démarrage pour forcer le mode bootloader : aucun changement.
+* `dmesg --follow` ne détecte toujours rien.
+* Le premier ESP32-C3 devenait chaud lorsqu'il était alimenté.
+* J’ai donc soudé un deuxième ESP32-C3FH4 avec seulement les connexions essentielles pour tester l’USB.
+* Le deuxième ESP32 présente exactement le même problème, notamment EN autour de 0,6 V.
+
+Le mapping USB utilisé est :
+GPIO18 = USB D−
+GPIO19 = USB D+
+
+Le mapping des autres GPIO ne semble pas être impliqué dans ce test puisque le deuxième ESP32 a été testé avec un montage minimal.
+
+Je cherche donc maintenant la cause commune aux deux essais : circuit CHIP_EN, alimentation/connexion de la puce, USB-C/D+/D− ou autre erreur matérielle sur le PCB.
+PIN 11 et pin 13 doivent être connecté au 3.3V!!!!!
+reglé le problème dans le bms aussi
