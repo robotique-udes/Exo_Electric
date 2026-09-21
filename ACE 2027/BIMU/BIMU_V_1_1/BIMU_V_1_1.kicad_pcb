@@ -1961,7 +1961,7 @@
 		(at 179.1 84.9 90)
 		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
 		(tags "Tactile Switch")
-		(property "Reference" "SW202"
+		(property "Reference" "BOOT"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "4aacfd28-d3c7-4aa9-b20e-1c46f6544b20")
@@ -2232,7 +2232,7 @@
 		(at 205.127501 58.505001)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D202"
+		(property "Reference" "CONNECTED"
 			(at -0.127501 1.794999 0)
 			(layer "F.SilkS")
 			(uuid "5a7bf3ab-0ad2-4eff-9ad7-cbeb1e632d39")
@@ -3293,7 +3293,7 @@
 		(at 205.127501 62.610001)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D203"
+		(property "Reference" "ERROR"
 			(at -0.127501 1.789999 0)
 			(layer "F.SilkS")
 			(uuid "cfc7557b-144b-408b-99ea-53cd2393fed6")
@@ -3547,7 +3547,7 @@
 		(at 174 84.9 90)
 		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
 		(tags "Tactile Switch")
-		(property "Reference" "SW201"
+		(property "Reference" "EN"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "767844f9-7f48-4acf-b7d5-652dad7c7aef")
@@ -5524,7 +5524,7 @@
 		(at 205.127501 54.400001)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
-		(property "Reference" "D101"
+		(property "Reference" "POWER"
 			(at -0.127501 1.799999 0)
 			(layer "F.SilkS")
 			(uuid "36b9c8c9-c592-4818-a2b1-abe33e8f509a")
@@ -7042,7 +7042,7 @@
 		(at 193.582501 59)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP201"
+		(property "Reference" "CAN+"
 			(at 0 1.448 180)
 			(layer "B.SilkS")
 			(uuid "2e9f3616-d723-4d66-98a2-0f210c5438ef")
@@ -12156,7 +12156,7 @@
 		(at 173 80.8)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP101"
+		(property "Reference" "GND"
 			(at 0 1.448 180)
 			(layer "B.SilkS")
 			(uuid "79cc7093-fe21-4b52-a1e9-0b33f47f0d83")
@@ -12329,7 +12329,7 @@
 		(at 195.3 64.54)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP202"
+		(property "Reference" "CAN-"
 			(at 0 1.448 180)
 			(layer "B.SilkS")
 			(uuid "6af5bf75-6e60-484c-ac37-aec6b3dd5f3d")
@@ -12727,7 +12727,7 @@
 		(at 179.5 61.275)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP102"
+		(property "Reference" "5V"
 			(at 0 1.448 180)
 			(layer "B.SilkS")
 			(uuid "8ab9e687-3d67-4aaf-afa7-b9da76c36a9e")
@@ -13125,7 +13125,7 @@
 		(at 173 85.2)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP103"
+		(property "Reference" "3.3V"
 			(at 0.6 1.5 180)
 			(layer "B.SilkS")
 			(uuid "4beb4582-e90a-4fc7-be1c-f650be463ed0")
@@ -15374,6 +15374,19 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e5ff9e50-5343-4712-9d58-f49fb25176c8")
+	)
+	(gr_text "BIMU V1.1"
+		(at 174.51 54.33 0)
+		(layer "F.SilkS")
+		(uuid "ebbae8b7-da1a-452b-b013-c6d23d8facc3")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Conception: Josserand-Pierre Gay\nVérification: Samuel Savaria"
 		(at 178.55 68.6 0)
