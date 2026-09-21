@@ -1,0 +1,389 @@
+(footprint "SOT23-6L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.st.com/content/ccc/resource/technical/document/datasheet/9a/e6/1c/4f/b6/9a/44/e6/CD00047494.pdf/files/CD00047494.pdf/jcr:content/translations/en.CD00047494.pdf")
+	(property "Reference" "D201"
+		(at -0.025 -3.425 0)
+		(layer "F.SilkS")
+		(uuid "769f9fe4-8244-49b4-8c1c-21384b342f12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USBLC6-2SC6"
+		(at -0.05 3.6 0)
+		(layer "F.Fab")
+		(uuid "343eb4a3-2f90-4618-a22d-cabedfc51ad3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "785409c5-58c8-44df-9bf0-12c5f0893262")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS DIODE 5.25V 17V SOT23-6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62c50de-7262-40f2-978d-23b16bec5f29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digi-Key_PN" "497-5235-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce600ac8-5378-4f95-8612-8b7233e3fef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "USBLC6-2SC6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd0ebbe-023f-4425-ba30-efde05c84104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Circuit Protection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6cd2632-f56b-48eb-9c16-2bac22cef287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "TVS - Diodes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bff22d78-c347-442c-9578-f9a663253be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Datasheet_Link" "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "922fad0b-0e41-44fa-b6a7-c1944c928401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Detail_Page" "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad94ddad-0951-418c-af74-dbe372223e95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "TVS DIODE 5.25V 17V SOT23-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddadab32-dd95-45cf-b943-5665d2e1f774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c31836ec-01ef-459d-bc8f-e89ba0e5617a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Active"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a997188b-e973-461b-ba74-144f5b2a09ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -1)
+		(end -1.65 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7abb91cd-d778-410f-b890-423bcf265036")
+	)
+	(fp_line
+		(start -1.65 0.5)
+		(end -1.325 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1faf856-6077-41ed-be85-754d33b6dd85")
+	)
+	(fp_line
+		(start -1.325 0.825)
+		(end -1.325 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a725e0e6-35ef-4ab7-a476-d3fa68db3fab")
+	)
+	(fp_line
+		(start -1.3 -1)
+		(end -1.65 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01b323c9-c2c3-4ff4-98bb-1ee887830373")
+	)
+	(fp_line
+		(start 1.3 -1)
+		(end 1.65 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daea7347-f897-405a-9944-36c11bcaacd4")
+	)
+	(fp_line
+		(start 1.65 -1)
+		(end 1.65 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c91561e0-a93f-45f0-bf7a-bbb7972036e2")
+	)
+	(fp_line
+		(start 1.65 0.675)
+		(end 1.65 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9450b2d-970d-4eac-a0a8-be6cf30493f9")
+	)
+	(fp_line
+		(start 1.65 1)
+		(end 1.35 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dabe97a-1854-4061-a663-dce5e3400e0b")
+	)
+	(fp_line
+		(start -1.825 -2)
+		(end -1.825 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b93623e7-382e-40fe-9bad-6eaeda8b4b7c")
+	)
+	(fp_line
+		(start -1.825 2)
+		(end 1.825 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9d18b0a-b681-4a52-9fd4-cfce6abfb110")
+	)
+	(fp_line
+		(start 1.825 -2)
+		(end -1.825 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "401eb789-40fb-46ea-949b-c29f9fac1414")
+	)
+	(fp_line
+		(start 1.825 -2)
+		(end 1.825 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94ab4378-ab49-43e6-afda-e6496121357d")
+	)
+	(fp_line
+		(start -1.525 -0.875)
+		(end 1.525 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51f9726f-08e0-48eb-9f46-c8dfcc10a05b")
+	)
+	(fp_line
+		(start -1.525 0.45)
+		(end -1.525 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77e8f653-4cf8-4c96-8a62-a834eb4e0375")
+	)
+	(fp_line
+		(start -1.525 0.45)
+		(end -1.1 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bab5ca3-0d72-4849-829a-f550a435fb30")
+	)
+	(fp_line
+		(start -1.1 0.875)
+		(end 1.525 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86192c50-9b24-4129-9495-d82649ff49e2")
+	)
+	(fp_line
+		(start 1.525 -0.875)
+		(end 1.525 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcf5db81-652a-491c-a9d0-52748ea55436")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.05 0)
+		(layer "F.Fab")
+		(uuid "67c45a8a-d9e8-43c7-b027-a013ff3a6ca7")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84aa880f-26c5-405b-998d-9225f23f0c63")
+	)
+	(pad "2" smd rect
+		(at 0 1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5384fd5b-83a2-4280-a710-a9a3abf43535")
+	)
+	(pad "3" smd rect
+		(at 0.95 1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71d63b57-fea1-433a-87ed-877718de6fd9")
+	)
+	(pad "4" smd rect
+		(at 0.95 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d721fe83-e2b4-4ba3-89dd-f971cad9d049")
+	)
+	(pad "5" smd rect
+		(at 0 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8ab8491-1c62-459e-8835-3c2018c2e7e5")
+	)
+	(pad "6" smd rect
+		(at -0.95 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3b2d429-64bd-4c52-a9f6-5640ae808284")
+	)
+	(embedded_fonts no)
+)
