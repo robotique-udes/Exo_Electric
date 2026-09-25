@@ -1,7 +1,11 @@
 # BIMU — IMU ESP32 + LSM6DSV16BXTR
 
 Petit module IMU conçu autour d'un `ESP32` et du capteur inertiel `LSM6DSV16BXTR`. Il fournit des mesures d'accélération et de rotation destinées aux calculs de l'exosquelette.
-
+## Update
+V1.1 inversé le RX et TX pour le CAN pour respecté les norme
+rajout une switch pour mettre ou retirer la therminaison CAN
+Connecté les deux pin de puissance du esp-32 qui doivent être connecté 
+fixer le silkscreen
 ## Objectif
 * Communication CAN avec le reste de l'exosquelette
 * Refresh rate minimal de 100Hz si possible 200Hz pour futur proof
