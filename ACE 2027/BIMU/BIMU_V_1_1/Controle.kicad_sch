@@ -5219,6 +5219,12 @@
 		(uuid "7fc3a248-45ab-456f-9347-1e76cf9ddfe7")
 	)
 	(junction
+		(at 80.01 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7feebc78-59eb-4211-b295-34442d70e94a")
+	)
+	(junction
 		(at 118.11 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5760,6 +5766,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b70a1c0-800e-4d2a-b637-5a689d4b3d5d")
+	)
+	(wire
+		(pts
 			(xy 132.08 104.14) (xy 140.97 104.14)
 		)
 		(stroke
@@ -5790,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 81.28 38.1)
+			(xy 76.2 38.1) (xy 80.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6620,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 81.28 34.29)
+			(xy 92.71 38.1) (xy 92.71 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7902,7 +7918,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 34.29 0)
+		(at 92.71 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7913,7 +7929,7 @@
 		(fields_autoplaced yes)
 		(uuid "000d2865-cc03-4ac9-bb02-0cf2fe98d087")
 		(property "Reference" "#PWR0205"
-			(at 81.28 38.1 0)
+			(at 92.71 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7923,18 +7939,19 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 81.28 29.21 0)
+		(property "Value" "+5V_USB"
+			(at 95.25 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 34.29 0)
+			(at 92.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,7 +7962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 34.29 0)
+			(at 92.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +7973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 34.29 0)
+			(at 92.71 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9232,8 +9249,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 133.35 91.44 90)
+		(property "Value" "+5V_BAT"
+			(at 138.43 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11630,6 +11647,84 @@
 			(project "BIMU_V_1_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/8f76bfd3-393f-4bde-9261-417b092e4508"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 80.01 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9021f7d3-310f-4550-8587-636311d71f08")
+		(property "Reference" "#FLG0203"
+			(at 80.01 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 80.01 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b498d02-fcdc-4171-aef4-09339215af98")
+		)
+		(instances
+			(project "BIMU_V_1_1"
+				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/8f76bfd3-393f-4bde-9261-417b092e4508"
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)

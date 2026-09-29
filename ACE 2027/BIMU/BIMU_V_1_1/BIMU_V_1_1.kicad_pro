@@ -753,7 +753,7 @@
         "uuid": "abeb93ed-b9ef-4503-99a7-3fce380ff294"
       }
     ],
-    "used_designators": "SW1",
+    "used_designators": "#FLG203-204,D1-2,#PWR112,#PWR226-227,SW1",
     "variants": []
   },
   "sheets": [
