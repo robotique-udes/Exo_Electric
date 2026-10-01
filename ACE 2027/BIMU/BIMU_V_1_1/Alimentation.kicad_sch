@@ -1844,6 +1844,18 @@
 		(uuid "4ec4a04e-e0f7-469d-8785-c897d47452bb")
 	)
 	(rectangle
+		(start 12.7 76.2)
+		(end 92.71 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6a4cc38e-b2f5-47d1-a78d-bcf92dff9850")
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 113.03 76.2)
 		(stroke
@@ -1854,6 +1866,28 @@
 			(type none)
 		)
 		(uuid "86805937-8bf4-419e-a046-a9bab848ccae")
+	)
+	(text "Diode schotty sont utilisé pour leur \nrésistance interne particuliairement basse"
+		(exclude_from_sim no)
+		(at 17.018 96.52 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "1fe12e59-2866-4601-95f2-86e7f370a2fd")
+	)
+	(text "BACK FEED POWER\nPROTECTION"
+		(exclude_from_sim no)
+		(at 15.748 114.3 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left)
+		)
+		(uuid "52f40cf6-d83e-4642-bf9a-4232b3e5443f")
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
@@ -1892,7 +1926,7 @@
 		(uuid "00b8835f-da33-446c-a3e2-35248e2a23fa")
 	)
 	(junction
-		(at 63.5 102.87)
+		(at 50.8 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09fd6603-4f56-4aff-b832-8211aa28f52d")
@@ -1947,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 102.87) (xy 68.58 102.87)
+			(xy 50.8 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 81.28 102.87)
+			(xy 71.12 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 50.8 102.87)
+			(xy 19.05 88.9) (xy 30.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2121,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 102.87) (xy 63.5 102.87)
+			(xy 38.1 88.9) (xy 50.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3099,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 45.72 102.87 0)
+		(at 19.05 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3075,7 +3109,7 @@
 		(dnp no)
 		(uuid "61b1f961-95a9-450b-8325-135616ef7c52")
 		(property "Reference" "#PWR0227"
-			(at 45.72 106.68 0)
+			(at 19.05 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3086,7 +3120,7 @@
 			)
 		)
 		(property "Value" "+5V_BAT"
-			(at 45.72 97.79 0)
+			(at 19.05 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3096,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 102.87 0)
+			(at 19.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 102.87 0)
+			(at 19.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 102.87 0)
+			(at 19.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3274,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 72.39 102.87 0)
+		(at 67.31 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3250,8 +3284,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fb40e7-bde9-4152-ba57-3b6ddf193b38")
-		(property "Reference" "D1"
-			(at 72.0725 96.52 0)
+		(property "Reference" "D105"
+			(at 66.9925 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3261,7 +3295,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 72.0725 99.06 0)
+			(at 66.9925 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3270,8 +3304,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_3220_8050Metric_Pad2.65x5.15mm_HandSolder"
-			(at 72.39 102.87 0)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 102.87 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,7 +3327,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 72.39 102.87 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +3338,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "478-7800-1-ND"
-			(at 72.39 102.87 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +3357,7 @@
 		(instances
 			(project "BIMU_V_1_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab"
-					(reference "D1")
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 102.87 0)
+		(at 82.55 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3506,7 +3540,7 @@
 		(dnp no)
 		(uuid "82dece7f-7541-46b8-b3d8-43ce41b49a11")
 		(property "Reference" "#PWR0226"
-			(at 81.28 106.68 0)
+			(at 82.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +3551,7 @@
 			)
 		)
 		(property "Value" "+5V_USB"
-			(at 76.708 97.79 0)
+			(at 77.978 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3528,7 +3562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 102.87 0)
+			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +3573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 102.87 0)
+			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +3584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 102.87 0)
+			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3710,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 102.87 0)
+		(at 50.8 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3687,7 +3721,7 @@
 		(fields_autoplaced yes)
 		(uuid "994e2c79-8ea9-4e75-a20c-36d7a9a22cef")
 		(property "Reference" "#PWR0112"
-			(at 63.5 106.68 0)
+			(at 50.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3732,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 97.79 0)
+			(at 50.8 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3708,7 +3742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 102.87 0)
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3719,7 +3753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 102.87 0)
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 102.87 0)
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,7 +4055,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 54.61 102.87 180)
+		(at 34.29 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4031,8 +4065,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcac13ad-40ef-422c-9d21-bdd6b476de01")
-		(property "Reference" "D2"
-			(at 54.9275 96.52 0)
+		(property "Reference" "D104"
+			(at 34.6075 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4042,7 +4076,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 54.9275 99.06 0)
+			(at 34.6075 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4051,8 +4085,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_3220_8050Metric_Pad2.65x5.15mm_HandSolder"
-			(at 54.61 102.87 0)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 102.87 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +4108,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 54.61 102.87 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,7 +4119,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "478-7800-1-ND"
-			(at 54.61 102.87 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +4138,7 @@
 		(instances
 			(project "BIMU_V_1_1"
 				(path "/abeb93ed-b9ef-4503-99a7-3fce380ff294/6937e765-eead-4ea7-ba07-6590a34338ab"
-					(reference "D2")
+					(reference "D104")
 					(unit 1)
 				)
 			)
