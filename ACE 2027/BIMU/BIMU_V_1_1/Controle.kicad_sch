@@ -7222,7 +7222,7 @@
 	)
 	(global_label "TWAI_CAN_RX"
 		(shape input)
-		(at 308.61 44.45 180)
+		(at 308.61 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7232,7 +7232,7 @@
 		)
 		(uuid "576cdb5d-197e-4320-9f14-cc253912ca0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.4086 44.45 0)
+			(at 293.4086 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7390,7 @@
 	)
 	(global_label "TWAI_CAN_TX"
 		(shape input)
-		(at 308.61 52.07 180)
+		(at 308.61 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7400,7 +7400,7 @@
 		)
 		(uuid "8d583872-0c70-4c87-a903-47f02ad4a124")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.711 52.07 0)
+			(at 293.711 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +7534,7 @@
 	)
 	(global_label "TWAI_CAN_TX"
 		(shape input)
-		(at 77.47 212.09 180)
+		(at 77.47 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7544,7 +7544,7 @@
 		)
 		(uuid "c1e0dcc5-ea52-4174-ae71-410a5df644ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.571 212.09 0)
+			(at 62.571 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7822,7 @@
 	)
 	(global_label "TWAI_CAN_RX"
 		(shape input)
-		(at 77.47 209.55 180)
+		(at 77.47 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7832,7 +7832,7 @@
 		)
 		(uuid "f4287497-a753-4858-9b4a-bde863b61498")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2686 209.55 0)
+			(at 62.2686 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
