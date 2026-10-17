@@ -1,4 +1,4 @@
-Salut, j’essaie de diagnostiquer un problème USB sur une carte custom avec un ESP32-C3FH4.
+J'essaie de diagnostiquer un problème USB sur une carte custom avec un ESP32-C3FH4.
 
 Le problème : le PC ne détecte absolument pas l’ESP32 en USB. `lsusb` ne change pas lorsque je branche la carte et `dmesg --follow` ne montre aucun événement USB.
 
@@ -29,4 +29,4 @@ Le mapping des autres GPIO ne semble pas être impliqué dans ce test puisque le
 
 Je cherche donc maintenant la cause commune aux deux essais : circuit CHIP_EN, alimentation/connexion de la puce, USB-C/D+/D− ou autre erreur matérielle sur le PCB.
 PIN 11 et pin 13 doivent être connecté au 3.3V!!!!!
-reglé le problème dans le bms aussi
+Reglé le problème dans le bms aussi
